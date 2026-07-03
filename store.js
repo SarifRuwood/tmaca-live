@@ -10,8 +10,10 @@ const Store = (() => {
       total: 0,
       failures: 0,
       current: null,
+      episodes: [],
       log: [],
-      driftHistory: []
+      driftHistory: [],
+      repairHistory: []
     };
   }
 
@@ -29,8 +31,10 @@ const Store = (() => {
       return {
         ...defaultState(),
         ...parsed,
+        episodes: parsed.episodes || [],
         log: parsed.log || [],
-        driftHistory: parsed.driftHistory || []
+        driftHistory: parsed.driftHistory || [],
+        repairHistory: parsed.repairHistory || []
       };
 
     } catch (e) {
