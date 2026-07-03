@@ -7,16 +7,7 @@ let state = Store.load();
 --------------------------*/
 function makeEpisode(){
   let n = state.total + 1;
-
-  return {
-    id: Math.random() < 0.25
-      ? "MAG-" + (n+1).toString().padStart(3,'0')
-      : "MAG-" + n.toString().padStart(3,'0'),
-
-    number: n,
-    season: 1,
-    title: Math.random() < 0.2 ? "" : "Episode " + n
-  };
+  return Schema.makeCanonicalEpisode(n);
 }
 
 /* -------------------------
@@ -41,17 +32,16 @@ function log(event){
 function generate(){
   let ep = makeEpisode();
 
-  state.current = ep;
   state.total++;
+  state.current = ep;
 
-  let result = Validator.validate(ep);
-
-  if(!result.ok) state.failures++;
+  let validation = Validator.validate(ep);
+  if(!validation.ok) state.failures++;
 
   log({
     type: "GENERATE",
     episode: ep,
-    result
+    validation
   });
 }
 
@@ -63,12 +53,14 @@ function cycle(){
 
   state.total++;
 
-  let result = Validator.validate(ep);
+  let validation = Validator.validate(ep);
+  let repairOutcome = null;
 
-  if(!result.ok){
+  if(!validation.ok){
     state.failures++;
-    ep = Validator.repair(ep, result.error);
-    result = Validator.validate(ep);
+    repairOutcome = Validator.repair(ep, validation.failures);
+    ep = repairOutcome.episode;
+    validation = Validator.validate(ep);
   }
 
   state.current = ep;
@@ -76,7 +68,8 @@ function cycle(){
   log({
     type: "CYCLE",
     episode: ep,
-    result
+    validation,
+    repairs: repairOutcome ? repairOutcome.repairs : []
   });
 }
 
@@ -100,9 +93,9 @@ function render(){
 
   document.getElementById("validation").innerHTML =
     !last ? "" :
-    last.result.ok
+    last.validation.ok
       ? "<span class='good'>ACCEPTED</span>"
-      : "<span class='bad'>REJECTED: " + last.result.error + "</span>";
+      : "<span class='bad'>REJECTED: " + last.validation.failures.map(f => f.rule).join(", ") + "</span>";
 
   let drift = state.failures / (state.total || 1);
 
@@ -114,7 +107,7 @@ function render(){
 
   document.getElementById("log").innerText =
     state.log.slice(-12).map(e =>
-      `${e.type} → ${e.result.ok ? "OK" : e.result.error}`
+      `${e.type} → ${e.validation.ok ? "OK" : e.validation.failures.map(f => f.rule).join(", ")}`
     ).join("\n");
 }
 
