@@ -1,0 +1,9602 @@
+window.TMACA_EPISODE_DATA = [
+  {
+    "id": "MAG-001",
+    "number": 1,
+    "season": 1,
+    "title": "Episode 1",
+    "summary": "A canonical episode summary for episode 1.",
+    "characters": [
+      {
+        "id": "CHR-001",
+        "name": "Character 1"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-001",
+        "name": "Location 1"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-001",
+        "name": "Artifact 1"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-001",
+        "name": "Fear Entity 1"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-001",
+        "note": "Self-reference for the first episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-001",
+        "description": "Primary event from episode 1"
+      }
+    ]
+  },
+  {
+    "id": "MAG-002",
+    "number": 2,
+    "season": 1,
+    "title": "Episode 2",
+    "summary": "A canonical episode summary for episode 2.",
+    "characters": [
+      {
+        "id": "CHR-002",
+        "name": "Character 2"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-002",
+        "name": "Location 2"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-002",
+        "name": "Artifact 2"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-002",
+        "name": "Fear Entity 2"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-001",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-002",
+        "description": "Primary event from episode 2"
+      }
+    ]
+  },
+  {
+    "id": "MAG-003",
+    "number": 3,
+    "season": 1,
+    "title": "Episode 3",
+    "summary": "A canonical episode summary for episode 3.",
+    "characters": [
+      {
+        "id": "CHR-003",
+        "name": "Character 3"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-003",
+        "name": "Location 3"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-003",
+        "name": "Artifact 3"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-003",
+        "name": "Fear Entity 3"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-002",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-003",
+        "description": "Primary event from episode 3"
+      }
+    ]
+  },
+  {
+    "id": "MAG-004",
+    "number": 4,
+    "season": 1,
+    "title": "Episode 4",
+    "summary": "A canonical episode summary for episode 4.",
+    "characters": [
+      {
+        "id": "CHR-004",
+        "name": "Character 4"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-004",
+        "name": "Location 4"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-004",
+        "name": "Artifact 4"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-004",
+        "name": "Fear Entity 4"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-003",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-004",
+        "description": "Primary event from episode 4"
+      }
+    ]
+  },
+  {
+    "id": "MAG-005",
+    "number": 5,
+    "season": 1,
+    "title": "Episode 5",
+    "summary": "A canonical episode summary for episode 5.",
+    "characters": [
+      {
+        "id": "CHR-005",
+        "name": "Character 5"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-005",
+        "name": "Location 5"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-005",
+        "name": "Artifact 5"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-005",
+        "name": "Fear Entity 5"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-004",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-005",
+        "description": "Primary event from episode 5"
+      }
+    ]
+  },
+  {
+    "id": "MAG-006",
+    "number": 6,
+    "season": 1,
+    "title": "Episode 6",
+    "summary": "A canonical episode summary for episode 6.",
+    "characters": [
+      {
+        "id": "CHR-006",
+        "name": "Character 6"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-006",
+        "name": "Location 6"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-006",
+        "name": "Artifact 6"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-006",
+        "name": "Fear Entity 6"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-005",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-006",
+        "description": "Primary event from episode 6"
+      }
+    ]
+  },
+  {
+    "id": "MAG-007",
+    "number": 7,
+    "season": 1,
+    "title": "Episode 7",
+    "summary": "A canonical episode summary for episode 7.",
+    "characters": [
+      {
+        "id": "CHR-007",
+        "name": "Character 7"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-007",
+        "name": "Location 7"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-007",
+        "name": "Artifact 7"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-007",
+        "name": "Fear Entity 7"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-006",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-007",
+        "description": "Primary event from episode 7"
+      }
+    ]
+  },
+  {
+    "id": "MAG-008",
+    "number": 8,
+    "season": 1,
+    "title": "Episode 8",
+    "summary": "A canonical episode summary for episode 8.",
+    "characters": [
+      {
+        "id": "CHR-008",
+        "name": "Character 8"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-008",
+        "name": "Location 8"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-008",
+        "name": "Artifact 8"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-008",
+        "name": "Fear Entity 8"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-007",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-008",
+        "description": "Primary event from episode 8"
+      }
+    ]
+  },
+  {
+    "id": "MAG-009",
+    "number": 9,
+    "season": 1,
+    "title": "Episode 9",
+    "summary": "A canonical episode summary for episode 9.",
+    "characters": [
+      {
+        "id": "CHR-009",
+        "name": "Character 9"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-009",
+        "name": "Location 9"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-009",
+        "name": "Artifact 9"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-009",
+        "name": "Fear Entity 9"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-008",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-009",
+        "description": "Primary event from episode 9"
+      }
+    ]
+  },
+  {
+    "id": "MAG-010",
+    "number": 10,
+    "season": 1,
+    "title": "Episode 10",
+    "summary": "A canonical episode summary for episode 10.",
+    "characters": [
+      {
+        "id": "CHR-010",
+        "name": "Character 10"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-010",
+        "name": "Location 10"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-010",
+        "name": "Artifact 10"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-010",
+        "name": "Fear Entity 10"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-009",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-010",
+        "description": "Primary event from episode 10"
+      }
+    ]
+  },
+  {
+    "id": "MAG-011",
+    "number": 11,
+    "season": 1,
+    "title": "Episode 11",
+    "summary": "A canonical episode summary for episode 11.",
+    "characters": [
+      {
+        "id": "CHR-011",
+        "name": "Character 11"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-011",
+        "name": "Location 11"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-011",
+        "name": "Artifact 11"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-011",
+        "name": "Fear Entity 11"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-010",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-011",
+        "description": "Primary event from episode 11"
+      }
+    ]
+  },
+  {
+    "id": "MAG-012",
+    "number": 12,
+    "season": 1,
+    "title": "Episode 12",
+    "summary": "A canonical episode summary for episode 12.",
+    "characters": [
+      {
+        "id": "CHR-012",
+        "name": "Character 12"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-012",
+        "name": "Location 12"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-012",
+        "name": "Artifact 12"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-012",
+        "name": "Fear Entity 12"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-011",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-012",
+        "description": "Primary event from episode 12"
+      }
+    ]
+  },
+  {
+    "id": "MAG-013",
+    "number": 13,
+    "season": 1,
+    "title": "Episode 13",
+    "summary": "A canonical episode summary for episode 13.",
+    "characters": [
+      {
+        "id": "CHR-013",
+        "name": "Character 13"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-013",
+        "name": "Location 13"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-013",
+        "name": "Artifact 13"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-013",
+        "name": "Fear Entity 13"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-012",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-013",
+        "description": "Primary event from episode 13"
+      }
+    ]
+  },
+  {
+    "id": "MAG-014",
+    "number": 14,
+    "season": 1,
+    "title": "Episode 14",
+    "summary": "A canonical episode summary for episode 14.",
+    "characters": [
+      {
+        "id": "CHR-014",
+        "name": "Character 14"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-014",
+        "name": "Location 14"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-014",
+        "name": "Artifact 14"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-014",
+        "name": "Fear Entity 14"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-013",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-014",
+        "description": "Primary event from episode 14"
+      }
+    ]
+  },
+  {
+    "id": "MAG-015",
+    "number": 15,
+    "season": 1,
+    "title": "Episode 15",
+    "summary": "A canonical episode summary for episode 15.",
+    "characters": [
+      {
+        "id": "CHR-015",
+        "name": "Character 15"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-015",
+        "name": "Location 15"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-015",
+        "name": "Artifact 15"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-015",
+        "name": "Fear Entity 15"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-014",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-015",
+        "description": "Primary event from episode 15"
+      }
+    ]
+  },
+  {
+    "id": "MAG-016",
+    "number": 16,
+    "season": 1,
+    "title": "Episode 16",
+    "summary": "A canonical episode summary for episode 16.",
+    "characters": [
+      {
+        "id": "CHR-016",
+        "name": "Character 16"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-016",
+        "name": "Location 16"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-016",
+        "name": "Artifact 16"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-016",
+        "name": "Fear Entity 16"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-015",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-016",
+        "description": "Primary event from episode 16"
+      }
+    ]
+  },
+  {
+    "id": "MAG-017",
+    "number": 17,
+    "season": 1,
+    "title": "Episode 17",
+    "summary": "A canonical episode summary for episode 17.",
+    "characters": [
+      {
+        "id": "CHR-017",
+        "name": "Character 17"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-017",
+        "name": "Location 17"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-017",
+        "name": "Artifact 17"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-017",
+        "name": "Fear Entity 17"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-016",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-017",
+        "description": "Primary event from episode 17"
+      }
+    ]
+  },
+  {
+    "id": "MAG-018",
+    "number": 18,
+    "season": 1,
+    "title": "Episode 18",
+    "summary": "A canonical episode summary for episode 18.",
+    "characters": [
+      {
+        "id": "CHR-018",
+        "name": "Character 18"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-018",
+        "name": "Location 18"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-018",
+        "name": "Artifact 18"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-018",
+        "name": "Fear Entity 18"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-017",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-018",
+        "description": "Primary event from episode 18"
+      }
+    ]
+  },
+  {
+    "id": "MAG-019",
+    "number": 19,
+    "season": 1,
+    "title": "Episode 19",
+    "summary": "A canonical episode summary for episode 19.",
+    "characters": [
+      {
+        "id": "CHR-019",
+        "name": "Character 19"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-019",
+        "name": "Location 19"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-019",
+        "name": "Artifact 19"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-019",
+        "name": "Fear Entity 19"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-018",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-019",
+        "description": "Primary event from episode 19"
+      }
+    ]
+  },
+  {
+    "id": "MAG-020",
+    "number": 20,
+    "season": 1,
+    "title": "Episode 20",
+    "summary": "A canonical episode summary for episode 20.",
+    "characters": [
+      {
+        "id": "CHR-020",
+        "name": "Character 20"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-020",
+        "name": "Location 20"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-020",
+        "name": "Artifact 20"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-020",
+        "name": "Fear Entity 20"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-019",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-020",
+        "description": "Primary event from episode 20"
+      }
+    ]
+  },
+  {
+    "id": "MAG-021",
+    "number": 21,
+    "season": 1,
+    "title": "Episode 21",
+    "summary": "A canonical episode summary for episode 21.",
+    "characters": [
+      {
+        "id": "CHR-021",
+        "name": "Character 21"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-021",
+        "name": "Location 21"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-021",
+        "name": "Artifact 21"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-021",
+        "name": "Fear Entity 21"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-020",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-021",
+        "description": "Primary event from episode 21"
+      }
+    ]
+  },
+  {
+    "id": "MAG-022",
+    "number": 22,
+    "season": 1,
+    "title": "Episode 22",
+    "summary": "A canonical episode summary for episode 22.",
+    "characters": [
+      {
+        "id": "CHR-022",
+        "name": "Character 22"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-022",
+        "name": "Location 22"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-022",
+        "name": "Artifact 22"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-022",
+        "name": "Fear Entity 22"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-021",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-022",
+        "description": "Primary event from episode 22"
+      }
+    ]
+  },
+  {
+    "id": "MAG-023",
+    "number": 23,
+    "season": 1,
+    "title": "Episode 23",
+    "summary": "A canonical episode summary for episode 23.",
+    "characters": [
+      {
+        "id": "CHR-023",
+        "name": "Character 23"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-023",
+        "name": "Location 23"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-023",
+        "name": "Artifact 23"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-023",
+        "name": "Fear Entity 23"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-022",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-023",
+        "description": "Primary event from episode 23"
+      }
+    ]
+  },
+  {
+    "id": "MAG-024",
+    "number": 24,
+    "season": 1,
+    "title": "Episode 24",
+    "summary": "A canonical episode summary for episode 24.",
+    "characters": [
+      {
+        "id": "CHR-024",
+        "name": "Character 24"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-024",
+        "name": "Location 24"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-024",
+        "name": "Artifact 24"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-024",
+        "name": "Fear Entity 24"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-023",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-024",
+        "description": "Primary event from episode 24"
+      }
+    ]
+  },
+  {
+    "id": "MAG-025",
+    "number": 25,
+    "season": 1,
+    "title": "Episode 25",
+    "summary": "A canonical episode summary for episode 25.",
+    "characters": [
+      {
+        "id": "CHR-025",
+        "name": "Character 25"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-025",
+        "name": "Location 25"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-025",
+        "name": "Artifact 25"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-025",
+        "name": "Fear Entity 25"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-024",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-025",
+        "description": "Primary event from episode 25"
+      }
+    ]
+  },
+  {
+    "id": "MAG-026",
+    "number": 26,
+    "season": 1,
+    "title": "Episode 26",
+    "summary": "A canonical episode summary for episode 26.",
+    "characters": [
+      {
+        "id": "CHR-026",
+        "name": "Character 26"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-026",
+        "name": "Location 26"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-026",
+        "name": "Artifact 26"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-026",
+        "name": "Fear Entity 26"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-025",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-026",
+        "description": "Primary event from episode 26"
+      }
+    ]
+  },
+  {
+    "id": "MAG-027",
+    "number": 27,
+    "season": 1,
+    "title": "Episode 27",
+    "summary": "A canonical episode summary for episode 27.",
+    "characters": [
+      {
+        "id": "CHR-027",
+        "name": "Character 27"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-027",
+        "name": "Location 27"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-027",
+        "name": "Artifact 27"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-027",
+        "name": "Fear Entity 27"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-026",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-027",
+        "description": "Primary event from episode 27"
+      }
+    ]
+  },
+  {
+    "id": "MAG-028",
+    "number": 28,
+    "season": 1,
+    "title": "Episode 28",
+    "summary": "A canonical episode summary for episode 28.",
+    "characters": [
+      {
+        "id": "CHR-028",
+        "name": "Character 28"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-028",
+        "name": "Location 28"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-028",
+        "name": "Artifact 28"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-028",
+        "name": "Fear Entity 28"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-027",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-028",
+        "description": "Primary event from episode 28"
+      }
+    ]
+  },
+  {
+    "id": "MAG-029",
+    "number": 29,
+    "season": 1,
+    "title": "Episode 29",
+    "summary": "A canonical episode summary for episode 29.",
+    "characters": [
+      {
+        "id": "CHR-029",
+        "name": "Character 29"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-029",
+        "name": "Location 29"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-029",
+        "name": "Artifact 29"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-029",
+        "name": "Fear Entity 29"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-028",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-029",
+        "description": "Primary event from episode 29"
+      }
+    ]
+  },
+  {
+    "id": "MAG-030",
+    "number": 30,
+    "season": 1,
+    "title": "Episode 30",
+    "summary": "A canonical episode summary for episode 30.",
+    "characters": [
+      {
+        "id": "CHR-030",
+        "name": "Character 30"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-030",
+        "name": "Location 30"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-030",
+        "name": "Artifact 30"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-030",
+        "name": "Fear Entity 30"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-029",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-030",
+        "description": "Primary event from episode 30"
+      }
+    ]
+  },
+  {
+    "id": "MAG-031",
+    "number": 31,
+    "season": 1,
+    "title": "Episode 31",
+    "summary": "A canonical episode summary for episode 31.",
+    "characters": [
+      {
+        "id": "CHR-031",
+        "name": "Character 31"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-031",
+        "name": "Location 31"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-031",
+        "name": "Artifact 31"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-031",
+        "name": "Fear Entity 31"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-030",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-031",
+        "description": "Primary event from episode 31"
+      }
+    ]
+  },
+  {
+    "id": "MAG-032",
+    "number": 32,
+    "season": 1,
+    "title": "Episode 32",
+    "summary": "A canonical episode summary for episode 32.",
+    "characters": [
+      {
+        "id": "CHR-032",
+        "name": "Character 32"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-032",
+        "name": "Location 32"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-032",
+        "name": "Artifact 32"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-032",
+        "name": "Fear Entity 32"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-031",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-032",
+        "description": "Primary event from episode 32"
+      }
+    ]
+  },
+  {
+    "id": "MAG-033",
+    "number": 33,
+    "season": 1,
+    "title": "Episode 33",
+    "summary": "A canonical episode summary for episode 33.",
+    "characters": [
+      {
+        "id": "CHR-033",
+        "name": "Character 33"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-033",
+        "name": "Location 33"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-033",
+        "name": "Artifact 33"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-033",
+        "name": "Fear Entity 33"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-032",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-033",
+        "description": "Primary event from episode 33"
+      }
+    ]
+  },
+  {
+    "id": "MAG-034",
+    "number": 34,
+    "season": 1,
+    "title": "Episode 34",
+    "summary": "A canonical episode summary for episode 34.",
+    "characters": [
+      {
+        "id": "CHR-034",
+        "name": "Character 34"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-034",
+        "name": "Location 34"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-034",
+        "name": "Artifact 34"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-034",
+        "name": "Fear Entity 34"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-033",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-034",
+        "description": "Primary event from episode 34"
+      }
+    ]
+  },
+  {
+    "id": "MAG-035",
+    "number": 35,
+    "season": 1,
+    "title": "Episode 35",
+    "summary": "A canonical episode summary for episode 35.",
+    "characters": [
+      {
+        "id": "CHR-035",
+        "name": "Character 35"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-035",
+        "name": "Location 35"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-035",
+        "name": "Artifact 35"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-035",
+        "name": "Fear Entity 35"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-034",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-035",
+        "description": "Primary event from episode 35"
+      }
+    ]
+  },
+  {
+    "id": "MAG-036",
+    "number": 36,
+    "season": 1,
+    "title": "Episode 36",
+    "summary": "A canonical episode summary for episode 36.",
+    "characters": [
+      {
+        "id": "CHR-036",
+        "name": "Character 36"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-036",
+        "name": "Location 36"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-036",
+        "name": "Artifact 36"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-036",
+        "name": "Fear Entity 36"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-035",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-036",
+        "description": "Primary event from episode 36"
+      }
+    ]
+  },
+  {
+    "id": "MAG-037",
+    "number": 37,
+    "season": 1,
+    "title": "Episode 37",
+    "summary": "A canonical episode summary for episode 37.",
+    "characters": [
+      {
+        "id": "CHR-037",
+        "name": "Character 37"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-037",
+        "name": "Location 37"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-037",
+        "name": "Artifact 37"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-037",
+        "name": "Fear Entity 37"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-036",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-037",
+        "description": "Primary event from episode 37"
+      }
+    ]
+  },
+  {
+    "id": "MAG-038",
+    "number": 38,
+    "season": 1,
+    "title": "Episode 38",
+    "summary": "A canonical episode summary for episode 38.",
+    "characters": [
+      {
+        "id": "CHR-038",
+        "name": "Character 38"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-038",
+        "name": "Location 38"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-038",
+        "name": "Artifact 38"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-038",
+        "name": "Fear Entity 38"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-037",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-038",
+        "description": "Primary event from episode 38"
+      }
+    ]
+  },
+  {
+    "id": "MAG-039",
+    "number": 39,
+    "season": 1,
+    "title": "Episode 39",
+    "summary": "A canonical episode summary for episode 39.",
+    "characters": [
+      {
+        "id": "CHR-039",
+        "name": "Character 39"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-039",
+        "name": "Location 39"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-039",
+        "name": "Artifact 39"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-039",
+        "name": "Fear Entity 39"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-038",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-039",
+        "description": "Primary event from episode 39"
+      }
+    ]
+  },
+  {
+    "id": "MAG-040",
+    "number": 40,
+    "season": 1,
+    "title": "Episode 40",
+    "summary": "A canonical episode summary for episode 40.",
+    "characters": [
+      {
+        "id": "CHR-040",
+        "name": "Character 40"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-040",
+        "name": "Location 40"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-040",
+        "name": "Artifact 40"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-040",
+        "name": "Fear Entity 40"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-039",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-040",
+        "description": "Primary event from episode 40"
+      }
+    ]
+  },
+  {
+    "id": "MAG-041",
+    "number": 41,
+    "season": 1,
+    "title": "Episode 41",
+    "summary": "A canonical episode summary for episode 41.",
+    "characters": [
+      {
+        "id": "CHR-041",
+        "name": "Character 41"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-041",
+        "name": "Location 41"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-041",
+        "name": "Artifact 41"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-041",
+        "name": "Fear Entity 41"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-040",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-041",
+        "description": "Primary event from episode 41"
+      }
+    ]
+  },
+  {
+    "id": "MAG-042",
+    "number": 42,
+    "season": 1,
+    "title": "Episode 42",
+    "summary": "A canonical episode summary for episode 42.",
+    "characters": [
+      {
+        "id": "CHR-042",
+        "name": "Character 42"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-042",
+        "name": "Location 42"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-042",
+        "name": "Artifact 42"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-042",
+        "name": "Fear Entity 42"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-041",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-042",
+        "description": "Primary event from episode 42"
+      }
+    ]
+  },
+  {
+    "id": "MAG-043",
+    "number": 43,
+    "season": 1,
+    "title": "Episode 43",
+    "summary": "A canonical episode summary for episode 43.",
+    "characters": [
+      {
+        "id": "CHR-043",
+        "name": "Character 43"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-043",
+        "name": "Location 43"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-043",
+        "name": "Artifact 43"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-043",
+        "name": "Fear Entity 43"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-042",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-043",
+        "description": "Primary event from episode 43"
+      }
+    ]
+  },
+  {
+    "id": "MAG-044",
+    "number": 44,
+    "season": 1,
+    "title": "Episode 44",
+    "summary": "A canonical episode summary for episode 44.",
+    "characters": [
+      {
+        "id": "CHR-044",
+        "name": "Character 44"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-044",
+        "name": "Location 44"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-044",
+        "name": "Artifact 44"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-044",
+        "name": "Fear Entity 44"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-043",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-044",
+        "description": "Primary event from episode 44"
+      }
+    ]
+  },
+  {
+    "id": "MAG-045",
+    "number": 45,
+    "season": 1,
+    "title": "Episode 45",
+    "summary": "A canonical episode summary for episode 45.",
+    "characters": [
+      {
+        "id": "CHR-045",
+        "name": "Character 45"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-045",
+        "name": "Location 45"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-045",
+        "name": "Artifact 45"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-045",
+        "name": "Fear Entity 45"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-044",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-045",
+        "description": "Primary event from episode 45"
+      }
+    ]
+  },
+  {
+    "id": "MAG-046",
+    "number": 46,
+    "season": 1,
+    "title": "Episode 46",
+    "summary": "A canonical episode summary for episode 46.",
+    "characters": [
+      {
+        "id": "CHR-046",
+        "name": "Character 46"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-046",
+        "name": "Location 46"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-046",
+        "name": "Artifact 46"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-046",
+        "name": "Fear Entity 46"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-045",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-046",
+        "description": "Primary event from episode 46"
+      }
+    ]
+  },
+  {
+    "id": "MAG-047",
+    "number": 47,
+    "season": 1,
+    "title": "Episode 47",
+    "summary": "A canonical episode summary for episode 47.",
+    "characters": [
+      {
+        "id": "CHR-047",
+        "name": "Character 47"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-047",
+        "name": "Location 47"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-047",
+        "name": "Artifact 47"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-047",
+        "name": "Fear Entity 47"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-046",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-047",
+        "description": "Primary event from episode 47"
+      }
+    ]
+  },
+  {
+    "id": "MAG-048",
+    "number": 48,
+    "season": 1,
+    "title": "Episode 48",
+    "summary": "A canonical episode summary for episode 48.",
+    "characters": [
+      {
+        "id": "CHR-048",
+        "name": "Character 48"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-048",
+        "name": "Location 48"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-048",
+        "name": "Artifact 48"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-048",
+        "name": "Fear Entity 48"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-047",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-048",
+        "description": "Primary event from episode 48"
+      }
+    ]
+  },
+  {
+    "id": "MAG-049",
+    "number": 49,
+    "season": 1,
+    "title": "Episode 49",
+    "summary": "A canonical episode summary for episode 49.",
+    "characters": [
+      {
+        "id": "CHR-049",
+        "name": "Character 49"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-049",
+        "name": "Location 49"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-049",
+        "name": "Artifact 49"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-049",
+        "name": "Fear Entity 49"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-048",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-049",
+        "description": "Primary event from episode 49"
+      }
+    ]
+  },
+  {
+    "id": "MAG-050",
+    "number": 50,
+    "season": 1,
+    "title": "Episode 50",
+    "summary": "A canonical episode summary for episode 50.",
+    "characters": [
+      {
+        "id": "CHR-050",
+        "name": "Character 50"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-050",
+        "name": "Location 50"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-050",
+        "name": "Artifact 50"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-050",
+        "name": "Fear Entity 50"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-049",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-050",
+        "description": "Primary event from episode 50"
+      }
+    ]
+  },
+  {
+    "id": "MAG-051",
+    "number": 51,
+    "season": 1,
+    "title": "Episode 51",
+    "summary": "A canonical episode summary for episode 51.",
+    "characters": [
+      {
+        "id": "CHR-051",
+        "name": "Character 51"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-051",
+        "name": "Location 51"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-051",
+        "name": "Artifact 51"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-051",
+        "name": "Fear Entity 51"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-050",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-051",
+        "description": "Primary event from episode 51"
+      }
+    ]
+  },
+  {
+    "id": "MAG-052",
+    "number": 52,
+    "season": 1,
+    "title": "Episode 52",
+    "summary": "A canonical episode summary for episode 52.",
+    "characters": [
+      {
+        "id": "CHR-052",
+        "name": "Character 52"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-052",
+        "name": "Location 52"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-052",
+        "name": "Artifact 52"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-052",
+        "name": "Fear Entity 52"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-051",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-052",
+        "description": "Primary event from episode 52"
+      }
+    ]
+  },
+  {
+    "id": "MAG-053",
+    "number": 53,
+    "season": 1,
+    "title": "Episode 53",
+    "summary": "A canonical episode summary for episode 53.",
+    "characters": [
+      {
+        "id": "CHR-053",
+        "name": "Character 53"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-053",
+        "name": "Location 53"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-053",
+        "name": "Artifact 53"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-053",
+        "name": "Fear Entity 53"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-052",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-053",
+        "description": "Primary event from episode 53"
+      }
+    ]
+  },
+  {
+    "id": "MAG-054",
+    "number": 54,
+    "season": 1,
+    "title": "Episode 54",
+    "summary": "A canonical episode summary for episode 54.",
+    "characters": [
+      {
+        "id": "CHR-054",
+        "name": "Character 54"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-054",
+        "name": "Location 54"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-054",
+        "name": "Artifact 54"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-054",
+        "name": "Fear Entity 54"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-053",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-054",
+        "description": "Primary event from episode 54"
+      }
+    ]
+  },
+  {
+    "id": "MAG-055",
+    "number": 55,
+    "season": 1,
+    "title": "Episode 55",
+    "summary": "A canonical episode summary for episode 55.",
+    "characters": [
+      {
+        "id": "CHR-055",
+        "name": "Character 55"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-055",
+        "name": "Location 55"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-055",
+        "name": "Artifact 55"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-055",
+        "name": "Fear Entity 55"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-054",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-055",
+        "description": "Primary event from episode 55"
+      }
+    ]
+  },
+  {
+    "id": "MAG-056",
+    "number": 56,
+    "season": 1,
+    "title": "Episode 56",
+    "summary": "A canonical episode summary for episode 56.",
+    "characters": [
+      {
+        "id": "CHR-056",
+        "name": "Character 56"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-056",
+        "name": "Location 56"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-056",
+        "name": "Artifact 56"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-056",
+        "name": "Fear Entity 56"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-055",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-056",
+        "description": "Primary event from episode 56"
+      }
+    ]
+  },
+  {
+    "id": "MAG-057",
+    "number": 57,
+    "season": 1,
+    "title": "Episode 57",
+    "summary": "A canonical episode summary for episode 57.",
+    "characters": [
+      {
+        "id": "CHR-057",
+        "name": "Character 57"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-057",
+        "name": "Location 57"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-057",
+        "name": "Artifact 57"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-057",
+        "name": "Fear Entity 57"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-056",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-057",
+        "description": "Primary event from episode 57"
+      }
+    ]
+  },
+  {
+    "id": "MAG-058",
+    "number": 58,
+    "season": 1,
+    "title": "Episode 58",
+    "summary": "A canonical episode summary for episode 58.",
+    "characters": [
+      {
+        "id": "CHR-058",
+        "name": "Character 58"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-058",
+        "name": "Location 58"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-058",
+        "name": "Artifact 58"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-058",
+        "name": "Fear Entity 58"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-057",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-058",
+        "description": "Primary event from episode 58"
+      }
+    ]
+  },
+  {
+    "id": "MAG-059",
+    "number": 59,
+    "season": 1,
+    "title": "Episode 59",
+    "summary": "A canonical episode summary for episode 59.",
+    "characters": [
+      {
+        "id": "CHR-059",
+        "name": "Character 59"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-059",
+        "name": "Location 59"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-059",
+        "name": "Artifact 59"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-059",
+        "name": "Fear Entity 59"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-058",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-059",
+        "description": "Primary event from episode 59"
+      }
+    ]
+  },
+  {
+    "id": "MAG-060",
+    "number": 60,
+    "season": 1,
+    "title": "Episode 60",
+    "summary": "A canonical episode summary for episode 60.",
+    "characters": [
+      {
+        "id": "CHR-060",
+        "name": "Character 60"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-060",
+        "name": "Location 60"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-060",
+        "name": "Artifact 60"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-060",
+        "name": "Fear Entity 60"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-059",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-060",
+        "description": "Primary event from episode 60"
+      }
+    ]
+  },
+  {
+    "id": "MAG-061",
+    "number": 61,
+    "season": 1,
+    "title": "Episode 61",
+    "summary": "A canonical episode summary for episode 61.",
+    "characters": [
+      {
+        "id": "CHR-061",
+        "name": "Character 61"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-061",
+        "name": "Location 61"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-061",
+        "name": "Artifact 61"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-061",
+        "name": "Fear Entity 61"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-060",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-061",
+        "description": "Primary event from episode 61"
+      }
+    ]
+  },
+  {
+    "id": "MAG-062",
+    "number": 62,
+    "season": 1,
+    "title": "Episode 62",
+    "summary": "A canonical episode summary for episode 62.",
+    "characters": [
+      {
+        "id": "CHR-062",
+        "name": "Character 62"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-062",
+        "name": "Location 62"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-062",
+        "name": "Artifact 62"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-062",
+        "name": "Fear Entity 62"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-061",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-062",
+        "description": "Primary event from episode 62"
+      }
+    ]
+  },
+  {
+    "id": "MAG-063",
+    "number": 63,
+    "season": 1,
+    "title": "Episode 63",
+    "summary": "A canonical episode summary for episode 63.",
+    "characters": [
+      {
+        "id": "CHR-063",
+        "name": "Character 63"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-063",
+        "name": "Location 63"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-063",
+        "name": "Artifact 63"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-063",
+        "name": "Fear Entity 63"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-062",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-063",
+        "description": "Primary event from episode 63"
+      }
+    ]
+  },
+  {
+    "id": "MAG-064",
+    "number": 64,
+    "season": 1,
+    "title": "Episode 64",
+    "summary": "A canonical episode summary for episode 64.",
+    "characters": [
+      {
+        "id": "CHR-064",
+        "name": "Character 64"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-064",
+        "name": "Location 64"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-064",
+        "name": "Artifact 64"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-064",
+        "name": "Fear Entity 64"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-063",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-064",
+        "description": "Primary event from episode 64"
+      }
+    ]
+  },
+  {
+    "id": "MAG-065",
+    "number": 65,
+    "season": 1,
+    "title": "Episode 65",
+    "summary": "A canonical episode summary for episode 65.",
+    "characters": [
+      {
+        "id": "CHR-065",
+        "name": "Character 65"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-065",
+        "name": "Location 65"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-065",
+        "name": "Artifact 65"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-065",
+        "name": "Fear Entity 65"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-064",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-065",
+        "description": "Primary event from episode 65"
+      }
+    ]
+  },
+  {
+    "id": "MAG-066",
+    "number": 66,
+    "season": 1,
+    "title": "Episode 66",
+    "summary": "A canonical episode summary for episode 66.",
+    "characters": [
+      {
+        "id": "CHR-066",
+        "name": "Character 66"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-066",
+        "name": "Location 66"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-066",
+        "name": "Artifact 66"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-066",
+        "name": "Fear Entity 66"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-065",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-066",
+        "description": "Primary event from episode 66"
+      }
+    ]
+  },
+  {
+    "id": "MAG-067",
+    "number": 67,
+    "season": 1,
+    "title": "Episode 67",
+    "summary": "A canonical episode summary for episode 67.",
+    "characters": [
+      {
+        "id": "CHR-067",
+        "name": "Character 67"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-067",
+        "name": "Location 67"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-067",
+        "name": "Artifact 67"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-067",
+        "name": "Fear Entity 67"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-066",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-067",
+        "description": "Primary event from episode 67"
+      }
+    ]
+  },
+  {
+    "id": "MAG-068",
+    "number": 68,
+    "season": 1,
+    "title": "Episode 68",
+    "summary": "A canonical episode summary for episode 68.",
+    "characters": [
+      {
+        "id": "CHR-068",
+        "name": "Character 68"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-068",
+        "name": "Location 68"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-068",
+        "name": "Artifact 68"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-068",
+        "name": "Fear Entity 68"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-067",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-068",
+        "description": "Primary event from episode 68"
+      }
+    ]
+  },
+  {
+    "id": "MAG-069",
+    "number": 69,
+    "season": 1,
+    "title": "Episode 69",
+    "summary": "A canonical episode summary for episode 69.",
+    "characters": [
+      {
+        "id": "CHR-069",
+        "name": "Character 69"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-069",
+        "name": "Location 69"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-069",
+        "name": "Artifact 69"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-069",
+        "name": "Fear Entity 69"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-068",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-069",
+        "description": "Primary event from episode 69"
+      }
+    ]
+  },
+  {
+    "id": "MAG-070",
+    "number": 70,
+    "season": 1,
+    "title": "Episode 70",
+    "summary": "A canonical episode summary for episode 70.",
+    "characters": [
+      {
+        "id": "CHR-070",
+        "name": "Character 70"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-070",
+        "name": "Location 70"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-070",
+        "name": "Artifact 70"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-070",
+        "name": "Fear Entity 70"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-069",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-070",
+        "description": "Primary event from episode 70"
+      }
+    ]
+  },
+  {
+    "id": "MAG-071",
+    "number": 71,
+    "season": 1,
+    "title": "Episode 71",
+    "summary": "A canonical episode summary for episode 71.",
+    "characters": [
+      {
+        "id": "CHR-071",
+        "name": "Character 71"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-071",
+        "name": "Location 71"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-071",
+        "name": "Artifact 71"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-071",
+        "name": "Fear Entity 71"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-070",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-071",
+        "description": "Primary event from episode 71"
+      }
+    ]
+  },
+  {
+    "id": "MAG-072",
+    "number": 72,
+    "season": 1,
+    "title": "Episode 72",
+    "summary": "A canonical episode summary for episode 72.",
+    "characters": [
+      {
+        "id": "CHR-072",
+        "name": "Character 72"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-072",
+        "name": "Location 72"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-072",
+        "name": "Artifact 72"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-072",
+        "name": "Fear Entity 72"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-071",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-072",
+        "description": "Primary event from episode 72"
+      }
+    ]
+  },
+  {
+    "id": "MAG-073",
+    "number": 73,
+    "season": 1,
+    "title": "Episode 73",
+    "summary": "A canonical episode summary for episode 73.",
+    "characters": [
+      {
+        "id": "CHR-073",
+        "name": "Character 73"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-073",
+        "name": "Location 73"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-073",
+        "name": "Artifact 73"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-073",
+        "name": "Fear Entity 73"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-072",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-073",
+        "description": "Primary event from episode 73"
+      }
+    ]
+  },
+  {
+    "id": "MAG-074",
+    "number": 74,
+    "season": 1,
+    "title": "Episode 74",
+    "summary": "A canonical episode summary for episode 74.",
+    "characters": [
+      {
+        "id": "CHR-074",
+        "name": "Character 74"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-074",
+        "name": "Location 74"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-074",
+        "name": "Artifact 74"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-074",
+        "name": "Fear Entity 74"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-073",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-074",
+        "description": "Primary event from episode 74"
+      }
+    ]
+  },
+  {
+    "id": "MAG-075",
+    "number": 75,
+    "season": 1,
+    "title": "Episode 75",
+    "summary": "A canonical episode summary for episode 75.",
+    "characters": [
+      {
+        "id": "CHR-075",
+        "name": "Character 75"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-075",
+        "name": "Location 75"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-075",
+        "name": "Artifact 75"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-075",
+        "name": "Fear Entity 75"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-074",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-075",
+        "description": "Primary event from episode 75"
+      }
+    ]
+  },
+  {
+    "id": "MAG-076",
+    "number": 76,
+    "season": 1,
+    "title": "Episode 76",
+    "summary": "A canonical episode summary for episode 76.",
+    "characters": [
+      {
+        "id": "CHR-076",
+        "name": "Character 76"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-076",
+        "name": "Location 76"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-076",
+        "name": "Artifact 76"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-076",
+        "name": "Fear Entity 76"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-075",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-076",
+        "description": "Primary event from episode 76"
+      }
+    ]
+  },
+  {
+    "id": "MAG-077",
+    "number": 77,
+    "season": 1,
+    "title": "Episode 77",
+    "summary": "A canonical episode summary for episode 77.",
+    "characters": [
+      {
+        "id": "CHR-077",
+        "name": "Character 77"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-077",
+        "name": "Location 77"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-077",
+        "name": "Artifact 77"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-077",
+        "name": "Fear Entity 77"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-076",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-077",
+        "description": "Primary event from episode 77"
+      }
+    ]
+  },
+  {
+    "id": "MAG-078",
+    "number": 78,
+    "season": 1,
+    "title": "Episode 78",
+    "summary": "A canonical episode summary for episode 78.",
+    "characters": [
+      {
+        "id": "CHR-078",
+        "name": "Character 78"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-078",
+        "name": "Location 78"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-078",
+        "name": "Artifact 78"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-078",
+        "name": "Fear Entity 78"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-077",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-078",
+        "description": "Primary event from episode 78"
+      }
+    ]
+  },
+  {
+    "id": "MAG-079",
+    "number": 79,
+    "season": 1,
+    "title": "Episode 79",
+    "summary": "A canonical episode summary for episode 79.",
+    "characters": [
+      {
+        "id": "CHR-079",
+        "name": "Character 79"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-079",
+        "name": "Location 79"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-079",
+        "name": "Artifact 79"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-079",
+        "name": "Fear Entity 79"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-078",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-079",
+        "description": "Primary event from episode 79"
+      }
+    ]
+  },
+  {
+    "id": "MAG-080",
+    "number": 80,
+    "season": 1,
+    "title": "Episode 80",
+    "summary": "A canonical episode summary for episode 80.",
+    "characters": [
+      {
+        "id": "CHR-080",
+        "name": "Character 80"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-080",
+        "name": "Location 80"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-080",
+        "name": "Artifact 80"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-080",
+        "name": "Fear Entity 80"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-079",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-080",
+        "description": "Primary event from episode 80"
+      }
+    ]
+  },
+  {
+    "id": "MAG-081",
+    "number": 81,
+    "season": 1,
+    "title": "Episode 81",
+    "summary": "A canonical episode summary for episode 81.",
+    "characters": [
+      {
+        "id": "CHR-081",
+        "name": "Character 81"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-081",
+        "name": "Location 81"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-081",
+        "name": "Artifact 81"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-081",
+        "name": "Fear Entity 81"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-080",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-081",
+        "description": "Primary event from episode 81"
+      }
+    ]
+  },
+  {
+    "id": "MAG-082",
+    "number": 82,
+    "season": 1,
+    "title": "Episode 82",
+    "summary": "A canonical episode summary for episode 82.",
+    "characters": [
+      {
+        "id": "CHR-082",
+        "name": "Character 82"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-082",
+        "name": "Location 82"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-082",
+        "name": "Artifact 82"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-082",
+        "name": "Fear Entity 82"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-081",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-082",
+        "description": "Primary event from episode 82"
+      }
+    ]
+  },
+  {
+    "id": "MAG-083",
+    "number": 83,
+    "season": 1,
+    "title": "Episode 83",
+    "summary": "A canonical episode summary for episode 83.",
+    "characters": [
+      {
+        "id": "CHR-083",
+        "name": "Character 83"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-083",
+        "name": "Location 83"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-083",
+        "name": "Artifact 83"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-083",
+        "name": "Fear Entity 83"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-082",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-083",
+        "description": "Primary event from episode 83"
+      }
+    ]
+  },
+  {
+    "id": "MAG-084",
+    "number": 84,
+    "season": 1,
+    "title": "Episode 84",
+    "summary": "A canonical episode summary for episode 84.",
+    "characters": [
+      {
+        "id": "CHR-084",
+        "name": "Character 84"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-084",
+        "name": "Location 84"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-084",
+        "name": "Artifact 84"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-084",
+        "name": "Fear Entity 84"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-083",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-084",
+        "description": "Primary event from episode 84"
+      }
+    ]
+  },
+  {
+    "id": "MAG-085",
+    "number": 85,
+    "season": 1,
+    "title": "Episode 85",
+    "summary": "A canonical episode summary for episode 85.",
+    "characters": [
+      {
+        "id": "CHR-085",
+        "name": "Character 85"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-085",
+        "name": "Location 85"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-085",
+        "name": "Artifact 85"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-085",
+        "name": "Fear Entity 85"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-084",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-085",
+        "description": "Primary event from episode 85"
+      }
+    ]
+  },
+  {
+    "id": "MAG-086",
+    "number": 86,
+    "season": 1,
+    "title": "Episode 86",
+    "summary": "A canonical episode summary for episode 86.",
+    "characters": [
+      {
+        "id": "CHR-086",
+        "name": "Character 86"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-086",
+        "name": "Location 86"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-086",
+        "name": "Artifact 86"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-086",
+        "name": "Fear Entity 86"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-085",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-086",
+        "description": "Primary event from episode 86"
+      }
+    ]
+  },
+  {
+    "id": "MAG-087",
+    "number": 87,
+    "season": 1,
+    "title": "Episode 87",
+    "summary": "A canonical episode summary for episode 87.",
+    "characters": [
+      {
+        "id": "CHR-087",
+        "name": "Character 87"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-087",
+        "name": "Location 87"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-087",
+        "name": "Artifact 87"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-087",
+        "name": "Fear Entity 87"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-086",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-087",
+        "description": "Primary event from episode 87"
+      }
+    ]
+  },
+  {
+    "id": "MAG-088",
+    "number": 88,
+    "season": 1,
+    "title": "Episode 88",
+    "summary": "A canonical episode summary for episode 88.",
+    "characters": [
+      {
+        "id": "CHR-088",
+        "name": "Character 88"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-088",
+        "name": "Location 88"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-088",
+        "name": "Artifact 88"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-088",
+        "name": "Fear Entity 88"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-087",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-088",
+        "description": "Primary event from episode 88"
+      }
+    ]
+  },
+  {
+    "id": "MAG-089",
+    "number": 89,
+    "season": 1,
+    "title": "Episode 89",
+    "summary": "A canonical episode summary for episode 89.",
+    "characters": [
+      {
+        "id": "CHR-089",
+        "name": "Character 89"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-089",
+        "name": "Location 89"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-089",
+        "name": "Artifact 89"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-089",
+        "name": "Fear Entity 89"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-088",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-089",
+        "description": "Primary event from episode 89"
+      }
+    ]
+  },
+  {
+    "id": "MAG-090",
+    "number": 90,
+    "season": 1,
+    "title": "Episode 90",
+    "summary": "A canonical episode summary for episode 90.",
+    "characters": [
+      {
+        "id": "CHR-090",
+        "name": "Character 90"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-090",
+        "name": "Location 90"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-090",
+        "name": "Artifact 90"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-090",
+        "name": "Fear Entity 90"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-089",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-090",
+        "description": "Primary event from episode 90"
+      }
+    ]
+  },
+  {
+    "id": "MAG-091",
+    "number": 91,
+    "season": 1,
+    "title": "Episode 91",
+    "summary": "A canonical episode summary for episode 91.",
+    "characters": [
+      {
+        "id": "CHR-091",
+        "name": "Character 91"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-091",
+        "name": "Location 91"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-091",
+        "name": "Artifact 91"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-091",
+        "name": "Fear Entity 91"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-090",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-091",
+        "description": "Primary event from episode 91"
+      }
+    ]
+  },
+  {
+    "id": "MAG-092",
+    "number": 92,
+    "season": 1,
+    "title": "Episode 92",
+    "summary": "A canonical episode summary for episode 92.",
+    "characters": [
+      {
+        "id": "CHR-092",
+        "name": "Character 92"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-092",
+        "name": "Location 92"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-092",
+        "name": "Artifact 92"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-092",
+        "name": "Fear Entity 92"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-091",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-092",
+        "description": "Primary event from episode 92"
+      }
+    ]
+  },
+  {
+    "id": "MAG-093",
+    "number": 93,
+    "season": 1,
+    "title": "Episode 93",
+    "summary": "A canonical episode summary for episode 93.",
+    "characters": [
+      {
+        "id": "CHR-093",
+        "name": "Character 93"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-093",
+        "name": "Location 93"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-093",
+        "name": "Artifact 93"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-093",
+        "name": "Fear Entity 93"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-092",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-093",
+        "description": "Primary event from episode 93"
+      }
+    ]
+  },
+  {
+    "id": "MAG-094",
+    "number": 94,
+    "season": 1,
+    "title": "Episode 94",
+    "summary": "A canonical episode summary for episode 94.",
+    "characters": [
+      {
+        "id": "CHR-094",
+        "name": "Character 94"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-094",
+        "name": "Location 94"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-094",
+        "name": "Artifact 94"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-094",
+        "name": "Fear Entity 94"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-093",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-094",
+        "description": "Primary event from episode 94"
+      }
+    ]
+  },
+  {
+    "id": "MAG-095",
+    "number": 95,
+    "season": 1,
+    "title": "Episode 95",
+    "summary": "A canonical episode summary for episode 95.",
+    "characters": [
+      {
+        "id": "CHR-095",
+        "name": "Character 95"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-095",
+        "name": "Location 95"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-095",
+        "name": "Artifact 95"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-095",
+        "name": "Fear Entity 95"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-094",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-095",
+        "description": "Primary event from episode 95"
+      }
+    ]
+  },
+  {
+    "id": "MAG-096",
+    "number": 96,
+    "season": 1,
+    "title": "Episode 96",
+    "summary": "A canonical episode summary for episode 96.",
+    "characters": [
+      {
+        "id": "CHR-096",
+        "name": "Character 96"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-096",
+        "name": "Location 96"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-096",
+        "name": "Artifact 96"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-096",
+        "name": "Fear Entity 96"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-095",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-096",
+        "description": "Primary event from episode 96"
+      }
+    ]
+  },
+  {
+    "id": "MAG-097",
+    "number": 97,
+    "season": 1,
+    "title": "Episode 97",
+    "summary": "A canonical episode summary for episode 97.",
+    "characters": [
+      {
+        "id": "CHR-097",
+        "name": "Character 97"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-097",
+        "name": "Location 97"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-097",
+        "name": "Artifact 97"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-097",
+        "name": "Fear Entity 97"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-096",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-097",
+        "description": "Primary event from episode 97"
+      }
+    ]
+  },
+  {
+    "id": "MAG-098",
+    "number": 98,
+    "season": 1,
+    "title": "Episode 98",
+    "summary": "A canonical episode summary for episode 98.",
+    "characters": [
+      {
+        "id": "CHR-098",
+        "name": "Character 98"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-098",
+        "name": "Location 98"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-098",
+        "name": "Artifact 98"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-098",
+        "name": "Fear Entity 98"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-097",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-098",
+        "description": "Primary event from episode 98"
+      }
+    ]
+  },
+  {
+    "id": "MAG-099",
+    "number": 99,
+    "season": 1,
+    "title": "Episode 99",
+    "summary": "A canonical episode summary for episode 99.",
+    "characters": [
+      {
+        "id": "CHR-099",
+        "name": "Character 99"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-099",
+        "name": "Location 99"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-099",
+        "name": "Artifact 99"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-099",
+        "name": "Fear Entity 99"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-098",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-099",
+        "description": "Primary event from episode 99"
+      }
+    ]
+  },
+  {
+    "id": "MAG-100",
+    "number": 100,
+    "season": 1,
+    "title": "Episode 100",
+    "summary": "A canonical episode summary for episode 100.",
+    "characters": [
+      {
+        "id": "CHR-100",
+        "name": "Character 100"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-100",
+        "name": "Location 100"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-100",
+        "name": "Artifact 100"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-100",
+        "name": "Fear Entity 100"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-099",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-100",
+        "description": "Primary event from episode 100"
+      }
+    ]
+  },
+  {
+    "id": "MAG-101",
+    "number": 101,
+    "season": 1,
+    "title": "Episode 101",
+    "summary": "A canonical episode summary for episode 101.",
+    "characters": [
+      {
+        "id": "CHR-101",
+        "name": "Character 101"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-101",
+        "name": "Location 101"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-101",
+        "name": "Artifact 101"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-101",
+        "name": "Fear Entity 101"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-100",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-101",
+        "description": "Primary event from episode 101"
+      }
+    ]
+  },
+  {
+    "id": "MAG-102",
+    "number": 102,
+    "season": 1,
+    "title": "Episode 102",
+    "summary": "A canonical episode summary for episode 102.",
+    "characters": [
+      {
+        "id": "CHR-102",
+        "name": "Character 102"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-102",
+        "name": "Location 102"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-102",
+        "name": "Artifact 102"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-102",
+        "name": "Fear Entity 102"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-101",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-102",
+        "description": "Primary event from episode 102"
+      }
+    ]
+  },
+  {
+    "id": "MAG-103",
+    "number": 103,
+    "season": 1,
+    "title": "Episode 103",
+    "summary": "A canonical episode summary for episode 103.",
+    "characters": [
+      {
+        "id": "CHR-103",
+        "name": "Character 103"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-103",
+        "name": "Location 103"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-103",
+        "name": "Artifact 103"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-103",
+        "name": "Fear Entity 103"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-102",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-103",
+        "description": "Primary event from episode 103"
+      }
+    ]
+  },
+  {
+    "id": "MAG-104",
+    "number": 104,
+    "season": 1,
+    "title": "Episode 104",
+    "summary": "A canonical episode summary for episode 104.",
+    "characters": [
+      {
+        "id": "CHR-104",
+        "name": "Character 104"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-104",
+        "name": "Location 104"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-104",
+        "name": "Artifact 104"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-104",
+        "name": "Fear Entity 104"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-103",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-104",
+        "description": "Primary event from episode 104"
+      }
+    ]
+  },
+  {
+    "id": "MAG-105",
+    "number": 105,
+    "season": 1,
+    "title": "Episode 105",
+    "summary": "A canonical episode summary for episode 105.",
+    "characters": [
+      {
+        "id": "CHR-105",
+        "name": "Character 105"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-105",
+        "name": "Location 105"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-105",
+        "name": "Artifact 105"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-105",
+        "name": "Fear Entity 105"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-104",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-105",
+        "description": "Primary event from episode 105"
+      }
+    ]
+  },
+  {
+    "id": "MAG-106",
+    "number": 106,
+    "season": 1,
+    "title": "Episode 106",
+    "summary": "A canonical episode summary for episode 106.",
+    "characters": [
+      {
+        "id": "CHR-106",
+        "name": "Character 106"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-106",
+        "name": "Location 106"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-106",
+        "name": "Artifact 106"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-106",
+        "name": "Fear Entity 106"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-105",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-106",
+        "description": "Primary event from episode 106"
+      }
+    ]
+  },
+  {
+    "id": "MAG-107",
+    "number": 107,
+    "season": 1,
+    "title": "Episode 107",
+    "summary": "A canonical episode summary for episode 107.",
+    "characters": [
+      {
+        "id": "CHR-107",
+        "name": "Character 107"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-107",
+        "name": "Location 107"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-107",
+        "name": "Artifact 107"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-107",
+        "name": "Fear Entity 107"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-106",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-107",
+        "description": "Primary event from episode 107"
+      }
+    ]
+  },
+  {
+    "id": "MAG-108",
+    "number": 108,
+    "season": 1,
+    "title": "Episode 108",
+    "summary": "A canonical episode summary for episode 108.",
+    "characters": [
+      {
+        "id": "CHR-108",
+        "name": "Character 108"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-108",
+        "name": "Location 108"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-108",
+        "name": "Artifact 108"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-108",
+        "name": "Fear Entity 108"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-107",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-108",
+        "description": "Primary event from episode 108"
+      }
+    ]
+  },
+  {
+    "id": "MAG-109",
+    "number": 109,
+    "season": 1,
+    "title": "Episode 109",
+    "summary": "A canonical episode summary for episode 109.",
+    "characters": [
+      {
+        "id": "CHR-109",
+        "name": "Character 109"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-109",
+        "name": "Location 109"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-109",
+        "name": "Artifact 109"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-109",
+        "name": "Fear Entity 109"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-108",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-109",
+        "description": "Primary event from episode 109"
+      }
+    ]
+  },
+  {
+    "id": "MAG-110",
+    "number": 110,
+    "season": 1,
+    "title": "Episode 110",
+    "summary": "A canonical episode summary for episode 110.",
+    "characters": [
+      {
+        "id": "CHR-110",
+        "name": "Character 110"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-110",
+        "name": "Location 110"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-110",
+        "name": "Artifact 110"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-110",
+        "name": "Fear Entity 110"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-109",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-110",
+        "description": "Primary event from episode 110"
+      }
+    ]
+  },
+  {
+    "id": "MAG-111",
+    "number": 111,
+    "season": 1,
+    "title": "Episode 111",
+    "summary": "A canonical episode summary for episode 111.",
+    "characters": [
+      {
+        "id": "CHR-111",
+        "name": "Character 111"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-111",
+        "name": "Location 111"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-111",
+        "name": "Artifact 111"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-111",
+        "name": "Fear Entity 111"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-110",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-111",
+        "description": "Primary event from episode 111"
+      }
+    ]
+  },
+  {
+    "id": "MAG-112",
+    "number": 112,
+    "season": 1,
+    "title": "Episode 112",
+    "summary": "A canonical episode summary for episode 112.",
+    "characters": [
+      {
+        "id": "CHR-112",
+        "name": "Character 112"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-112",
+        "name": "Location 112"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-112",
+        "name": "Artifact 112"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-112",
+        "name": "Fear Entity 112"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-111",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-112",
+        "description": "Primary event from episode 112"
+      }
+    ]
+  },
+  {
+    "id": "MAG-113",
+    "number": 113,
+    "season": 1,
+    "title": "Episode 113",
+    "summary": "A canonical episode summary for episode 113.",
+    "characters": [
+      {
+        "id": "CHR-113",
+        "name": "Character 113"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-113",
+        "name": "Location 113"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-113",
+        "name": "Artifact 113"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-113",
+        "name": "Fear Entity 113"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-112",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-113",
+        "description": "Primary event from episode 113"
+      }
+    ]
+  },
+  {
+    "id": "MAG-114",
+    "number": 114,
+    "season": 1,
+    "title": "Episode 114",
+    "summary": "A canonical episode summary for episode 114.",
+    "characters": [
+      {
+        "id": "CHR-114",
+        "name": "Character 114"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-114",
+        "name": "Location 114"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-114",
+        "name": "Artifact 114"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-114",
+        "name": "Fear Entity 114"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-113",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-114",
+        "description": "Primary event from episode 114"
+      }
+    ]
+  },
+  {
+    "id": "MAG-115",
+    "number": 115,
+    "season": 1,
+    "title": "Episode 115",
+    "summary": "A canonical episode summary for episode 115.",
+    "characters": [
+      {
+        "id": "CHR-115",
+        "name": "Character 115"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-115",
+        "name": "Location 115"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-115",
+        "name": "Artifact 115"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-115",
+        "name": "Fear Entity 115"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-114",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-115",
+        "description": "Primary event from episode 115"
+      }
+    ]
+  },
+  {
+    "id": "MAG-116",
+    "number": 116,
+    "season": 1,
+    "title": "Episode 116",
+    "summary": "A canonical episode summary for episode 116.",
+    "characters": [
+      {
+        "id": "CHR-116",
+        "name": "Character 116"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-116",
+        "name": "Location 116"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-116",
+        "name": "Artifact 116"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-116",
+        "name": "Fear Entity 116"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-115",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-116",
+        "description": "Primary event from episode 116"
+      }
+    ]
+  },
+  {
+    "id": "MAG-117",
+    "number": 117,
+    "season": 1,
+    "title": "Episode 117",
+    "summary": "A canonical episode summary for episode 117.",
+    "characters": [
+      {
+        "id": "CHR-117",
+        "name": "Character 117"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-117",
+        "name": "Location 117"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-117",
+        "name": "Artifact 117"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-117",
+        "name": "Fear Entity 117"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-116",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-117",
+        "description": "Primary event from episode 117"
+      }
+    ]
+  },
+  {
+    "id": "MAG-118",
+    "number": 118,
+    "season": 1,
+    "title": "Episode 118",
+    "summary": "A canonical episode summary for episode 118.",
+    "characters": [
+      {
+        "id": "CHR-118",
+        "name": "Character 118"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-118",
+        "name": "Location 118"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-118",
+        "name": "Artifact 118"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-118",
+        "name": "Fear Entity 118"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-117",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-118",
+        "description": "Primary event from episode 118"
+      }
+    ]
+  },
+  {
+    "id": "MAG-119",
+    "number": 119,
+    "season": 1,
+    "title": "Episode 119",
+    "summary": "A canonical episode summary for episode 119.",
+    "characters": [
+      {
+        "id": "CHR-119",
+        "name": "Character 119"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-119",
+        "name": "Location 119"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-119",
+        "name": "Artifact 119"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-119",
+        "name": "Fear Entity 119"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-118",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-119",
+        "description": "Primary event from episode 119"
+      }
+    ]
+  },
+  {
+    "id": "MAG-120",
+    "number": 120,
+    "season": 1,
+    "title": "Episode 120",
+    "summary": "A canonical episode summary for episode 120.",
+    "characters": [
+      {
+        "id": "CHR-120",
+        "name": "Character 120"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-120",
+        "name": "Location 120"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-120",
+        "name": "Artifact 120"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-120",
+        "name": "Fear Entity 120"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-119",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-120",
+        "description": "Primary event from episode 120"
+      }
+    ]
+  },
+  {
+    "id": "MAG-121",
+    "number": 121,
+    "season": 1,
+    "title": "Episode 121",
+    "summary": "A canonical episode summary for episode 121.",
+    "characters": [
+      {
+        "id": "CHR-121",
+        "name": "Character 121"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-121",
+        "name": "Location 121"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-121",
+        "name": "Artifact 121"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-121",
+        "name": "Fear Entity 121"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-120",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-121",
+        "description": "Primary event from episode 121"
+      }
+    ]
+  },
+  {
+    "id": "MAG-122",
+    "number": 122,
+    "season": 1,
+    "title": "Episode 122",
+    "summary": "A canonical episode summary for episode 122.",
+    "characters": [
+      {
+        "id": "CHR-122",
+        "name": "Character 122"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-122",
+        "name": "Location 122"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-122",
+        "name": "Artifact 122"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-122",
+        "name": "Fear Entity 122"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-121",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-122",
+        "description": "Primary event from episode 122"
+      }
+    ]
+  },
+  {
+    "id": "MAG-123",
+    "number": 123,
+    "season": 1,
+    "title": "Episode 123",
+    "summary": "A canonical episode summary for episode 123.",
+    "characters": [
+      {
+        "id": "CHR-123",
+        "name": "Character 123"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-123",
+        "name": "Location 123"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-123",
+        "name": "Artifact 123"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-123",
+        "name": "Fear Entity 123"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-122",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-123",
+        "description": "Primary event from episode 123"
+      }
+    ]
+  },
+  {
+    "id": "MAG-124",
+    "number": 124,
+    "season": 1,
+    "title": "Episode 124",
+    "summary": "A canonical episode summary for episode 124.",
+    "characters": [
+      {
+        "id": "CHR-124",
+        "name": "Character 124"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-124",
+        "name": "Location 124"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-124",
+        "name": "Artifact 124"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-124",
+        "name": "Fear Entity 124"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-123",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-124",
+        "description": "Primary event from episode 124"
+      }
+    ]
+  },
+  {
+    "id": "MAG-125",
+    "number": 125,
+    "season": 1,
+    "title": "Episode 125",
+    "summary": "A canonical episode summary for episode 125.",
+    "characters": [
+      {
+        "id": "CHR-125",
+        "name": "Character 125"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-125",
+        "name": "Location 125"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-125",
+        "name": "Artifact 125"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-125",
+        "name": "Fear Entity 125"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-124",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-125",
+        "description": "Primary event from episode 125"
+      }
+    ]
+  },
+  {
+    "id": "MAG-126",
+    "number": 126,
+    "season": 1,
+    "title": "Episode 126",
+    "summary": "A canonical episode summary for episode 126.",
+    "characters": [
+      {
+        "id": "CHR-126",
+        "name": "Character 126"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-126",
+        "name": "Location 126"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-126",
+        "name": "Artifact 126"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-126",
+        "name": "Fear Entity 126"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-125",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-126",
+        "description": "Primary event from episode 126"
+      }
+    ]
+  },
+  {
+    "id": "MAG-127",
+    "number": 127,
+    "season": 1,
+    "title": "Episode 127",
+    "summary": "A canonical episode summary for episode 127.",
+    "characters": [
+      {
+        "id": "CHR-127",
+        "name": "Character 127"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-127",
+        "name": "Location 127"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-127",
+        "name": "Artifact 127"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-127",
+        "name": "Fear Entity 127"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-126",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-127",
+        "description": "Primary event from episode 127"
+      }
+    ]
+  },
+  {
+    "id": "MAG-128",
+    "number": 128,
+    "season": 1,
+    "title": "Episode 128",
+    "summary": "A canonical episode summary for episode 128.",
+    "characters": [
+      {
+        "id": "CHR-128",
+        "name": "Character 128"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-128",
+        "name": "Location 128"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-128",
+        "name": "Artifact 128"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-128",
+        "name": "Fear Entity 128"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-127",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-128",
+        "description": "Primary event from episode 128"
+      }
+    ]
+  },
+  {
+    "id": "MAG-129",
+    "number": 129,
+    "season": 1,
+    "title": "Episode 129",
+    "summary": "A canonical episode summary for episode 129.",
+    "characters": [
+      {
+        "id": "CHR-129",
+        "name": "Character 129"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-129",
+        "name": "Location 129"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-129",
+        "name": "Artifact 129"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-129",
+        "name": "Fear Entity 129"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-128",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-129",
+        "description": "Primary event from episode 129"
+      }
+    ]
+  },
+  {
+    "id": "MAG-130",
+    "number": 130,
+    "season": 1,
+    "title": "Episode 130",
+    "summary": "A canonical episode summary for episode 130.",
+    "characters": [
+      {
+        "id": "CHR-130",
+        "name": "Character 130"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-130",
+        "name": "Location 130"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-130",
+        "name": "Artifact 130"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-130",
+        "name": "Fear Entity 130"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-129",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-130",
+        "description": "Primary event from episode 130"
+      }
+    ]
+  },
+  {
+    "id": "MAG-131",
+    "number": 131,
+    "season": 1,
+    "title": "Episode 131",
+    "summary": "A canonical episode summary for episode 131.",
+    "characters": [
+      {
+        "id": "CHR-131",
+        "name": "Character 131"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-131",
+        "name": "Location 131"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-131",
+        "name": "Artifact 131"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-131",
+        "name": "Fear Entity 131"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-130",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-131",
+        "description": "Primary event from episode 131"
+      }
+    ]
+  },
+  {
+    "id": "MAG-132",
+    "number": 132,
+    "season": 1,
+    "title": "Episode 132",
+    "summary": "A canonical episode summary for episode 132.",
+    "characters": [
+      {
+        "id": "CHR-132",
+        "name": "Character 132"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-132",
+        "name": "Location 132"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-132",
+        "name": "Artifact 132"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-132",
+        "name": "Fear Entity 132"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-131",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-132",
+        "description": "Primary event from episode 132"
+      }
+    ]
+  },
+  {
+    "id": "MAG-133",
+    "number": 133,
+    "season": 1,
+    "title": "Episode 133",
+    "summary": "A canonical episode summary for episode 133.",
+    "characters": [
+      {
+        "id": "CHR-133",
+        "name": "Character 133"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-133",
+        "name": "Location 133"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-133",
+        "name": "Artifact 133"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-133",
+        "name": "Fear Entity 133"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-132",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-133",
+        "description": "Primary event from episode 133"
+      }
+    ]
+  },
+  {
+    "id": "MAG-134",
+    "number": 134,
+    "season": 1,
+    "title": "Episode 134",
+    "summary": "A canonical episode summary for episode 134.",
+    "characters": [
+      {
+        "id": "CHR-134",
+        "name": "Character 134"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-134",
+        "name": "Location 134"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-134",
+        "name": "Artifact 134"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-134",
+        "name": "Fear Entity 134"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-133",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-134",
+        "description": "Primary event from episode 134"
+      }
+    ]
+  },
+  {
+    "id": "MAG-135",
+    "number": 135,
+    "season": 1,
+    "title": "Episode 135",
+    "summary": "A canonical episode summary for episode 135.",
+    "characters": [
+      {
+        "id": "CHR-135",
+        "name": "Character 135"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-135",
+        "name": "Location 135"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-135",
+        "name": "Artifact 135"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-135",
+        "name": "Fear Entity 135"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-134",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-135",
+        "description": "Primary event from episode 135"
+      }
+    ]
+  },
+  {
+    "id": "MAG-136",
+    "number": 136,
+    "season": 1,
+    "title": "Episode 136",
+    "summary": "A canonical episode summary for episode 136.",
+    "characters": [
+      {
+        "id": "CHR-136",
+        "name": "Character 136"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-136",
+        "name": "Location 136"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-136",
+        "name": "Artifact 136"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-136",
+        "name": "Fear Entity 136"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-135",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-136",
+        "description": "Primary event from episode 136"
+      }
+    ]
+  },
+  {
+    "id": "MAG-137",
+    "number": 137,
+    "season": 1,
+    "title": "Episode 137",
+    "summary": "A canonical episode summary for episode 137.",
+    "characters": [
+      {
+        "id": "CHR-137",
+        "name": "Character 137"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-137",
+        "name": "Location 137"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-137",
+        "name": "Artifact 137"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-137",
+        "name": "Fear Entity 137"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-136",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-137",
+        "description": "Primary event from episode 137"
+      }
+    ]
+  },
+  {
+    "id": "MAG-138",
+    "number": 138,
+    "season": 1,
+    "title": "Episode 138",
+    "summary": "A canonical episode summary for episode 138.",
+    "characters": [
+      {
+        "id": "CHR-138",
+        "name": "Character 138"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-138",
+        "name": "Location 138"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-138",
+        "name": "Artifact 138"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-138",
+        "name": "Fear Entity 138"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-137",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-138",
+        "description": "Primary event from episode 138"
+      }
+    ]
+  },
+  {
+    "id": "MAG-139",
+    "number": 139,
+    "season": 1,
+    "title": "Episode 139",
+    "summary": "A canonical episode summary for episode 139.",
+    "characters": [
+      {
+        "id": "CHR-139",
+        "name": "Character 139"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-139",
+        "name": "Location 139"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-139",
+        "name": "Artifact 139"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-139",
+        "name": "Fear Entity 139"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-138",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-139",
+        "description": "Primary event from episode 139"
+      }
+    ]
+  },
+  {
+    "id": "MAG-140",
+    "number": 140,
+    "season": 1,
+    "title": "Episode 140",
+    "summary": "A canonical episode summary for episode 140.",
+    "characters": [
+      {
+        "id": "CHR-140",
+        "name": "Character 140"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-140",
+        "name": "Location 140"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-140",
+        "name": "Artifact 140"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-140",
+        "name": "Fear Entity 140"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-139",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-140",
+        "description": "Primary event from episode 140"
+      }
+    ]
+  },
+  {
+    "id": "MAG-141",
+    "number": 141,
+    "season": 1,
+    "title": "Episode 141",
+    "summary": "A canonical episode summary for episode 141.",
+    "characters": [
+      {
+        "id": "CHR-141",
+        "name": "Character 141"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-141",
+        "name": "Location 141"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-141",
+        "name": "Artifact 141"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-141",
+        "name": "Fear Entity 141"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-140",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-141",
+        "description": "Primary event from episode 141"
+      }
+    ]
+  },
+  {
+    "id": "MAG-142",
+    "number": 142,
+    "season": 1,
+    "title": "Episode 142",
+    "summary": "A canonical episode summary for episode 142.",
+    "characters": [
+      {
+        "id": "CHR-142",
+        "name": "Character 142"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-142",
+        "name": "Location 142"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-142",
+        "name": "Artifact 142"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-142",
+        "name": "Fear Entity 142"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-141",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-142",
+        "description": "Primary event from episode 142"
+      }
+    ]
+  },
+  {
+    "id": "MAG-143",
+    "number": 143,
+    "season": 1,
+    "title": "Episode 143",
+    "summary": "A canonical episode summary for episode 143.",
+    "characters": [
+      {
+        "id": "CHR-143",
+        "name": "Character 143"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-143",
+        "name": "Location 143"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-143",
+        "name": "Artifact 143"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-143",
+        "name": "Fear Entity 143"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-142",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-143",
+        "description": "Primary event from episode 143"
+      }
+    ]
+  },
+  {
+    "id": "MAG-144",
+    "number": 144,
+    "season": 1,
+    "title": "Episode 144",
+    "summary": "A canonical episode summary for episode 144.",
+    "characters": [
+      {
+        "id": "CHR-144",
+        "name": "Character 144"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-144",
+        "name": "Location 144"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-144",
+        "name": "Artifact 144"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-144",
+        "name": "Fear Entity 144"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-143",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-144",
+        "description": "Primary event from episode 144"
+      }
+    ]
+  },
+  {
+    "id": "MAG-145",
+    "number": 145,
+    "season": 1,
+    "title": "Episode 145",
+    "summary": "A canonical episode summary for episode 145.",
+    "characters": [
+      {
+        "id": "CHR-145",
+        "name": "Character 145"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-145",
+        "name": "Location 145"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-145",
+        "name": "Artifact 145"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-145",
+        "name": "Fear Entity 145"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-144",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-145",
+        "description": "Primary event from episode 145"
+      }
+    ]
+  },
+  {
+    "id": "MAG-146",
+    "number": 146,
+    "season": 1,
+    "title": "Episode 146",
+    "summary": "A canonical episode summary for episode 146.",
+    "characters": [
+      {
+        "id": "CHR-146",
+        "name": "Character 146"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-146",
+        "name": "Location 146"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-146",
+        "name": "Artifact 146"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-146",
+        "name": "Fear Entity 146"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-145",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-146",
+        "description": "Primary event from episode 146"
+      }
+    ]
+  },
+  {
+    "id": "MAG-147",
+    "number": 147,
+    "season": 1,
+    "title": "Episode 147",
+    "summary": "A canonical episode summary for episode 147.",
+    "characters": [
+      {
+        "id": "CHR-147",
+        "name": "Character 147"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-147",
+        "name": "Location 147"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-147",
+        "name": "Artifact 147"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-147",
+        "name": "Fear Entity 147"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-146",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-147",
+        "description": "Primary event from episode 147"
+      }
+    ]
+  },
+  {
+    "id": "MAG-148",
+    "number": 148,
+    "season": 1,
+    "title": "Episode 148",
+    "summary": "A canonical episode summary for episode 148.",
+    "characters": [
+      {
+        "id": "CHR-148",
+        "name": "Character 148"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-148",
+        "name": "Location 148"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-148",
+        "name": "Artifact 148"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-148",
+        "name": "Fear Entity 148"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-147",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-148",
+        "description": "Primary event from episode 148"
+      }
+    ]
+  },
+  {
+    "id": "MAG-149",
+    "number": 149,
+    "season": 1,
+    "title": "Episode 149",
+    "summary": "A canonical episode summary for episode 149.",
+    "characters": [
+      {
+        "id": "CHR-149",
+        "name": "Character 149"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-149",
+        "name": "Location 149"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-149",
+        "name": "Artifact 149"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-149",
+        "name": "Fear Entity 149"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-148",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-149",
+        "description": "Primary event from episode 149"
+      }
+    ]
+  },
+  {
+    "id": "MAG-150",
+    "number": 150,
+    "season": 1,
+    "title": "Episode 150",
+    "summary": "A canonical episode summary for episode 150.",
+    "characters": [
+      {
+        "id": "CHR-150",
+        "name": "Character 150"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-150",
+        "name": "Location 150"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-150",
+        "name": "Artifact 150"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-150",
+        "name": "Fear Entity 150"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-149",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-150",
+        "description": "Primary event from episode 150"
+      }
+    ]
+  },
+  {
+    "id": "MAG-151",
+    "number": 151,
+    "season": 1,
+    "title": "Episode 151",
+    "summary": "A canonical episode summary for episode 151.",
+    "characters": [
+      {
+        "id": "CHR-151",
+        "name": "Character 151"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-151",
+        "name": "Location 151"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-151",
+        "name": "Artifact 151"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-151",
+        "name": "Fear Entity 151"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-150",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-151",
+        "description": "Primary event from episode 151"
+      }
+    ]
+  },
+  {
+    "id": "MAG-152",
+    "number": 152,
+    "season": 1,
+    "title": "Episode 152",
+    "summary": "A canonical episode summary for episode 152.",
+    "characters": [
+      {
+        "id": "CHR-152",
+        "name": "Character 152"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-152",
+        "name": "Location 152"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-152",
+        "name": "Artifact 152"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-152",
+        "name": "Fear Entity 152"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-151",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-152",
+        "description": "Primary event from episode 152"
+      }
+    ]
+  },
+  {
+    "id": "MAG-153",
+    "number": 153,
+    "season": 1,
+    "title": "Episode 153",
+    "summary": "A canonical episode summary for episode 153.",
+    "characters": [
+      {
+        "id": "CHR-153",
+        "name": "Character 153"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-153",
+        "name": "Location 153"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-153",
+        "name": "Artifact 153"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-153",
+        "name": "Fear Entity 153"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-152",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-153",
+        "description": "Primary event from episode 153"
+      }
+    ]
+  },
+  {
+    "id": "MAG-154",
+    "number": 154,
+    "season": 1,
+    "title": "Episode 154",
+    "summary": "A canonical episode summary for episode 154.",
+    "characters": [
+      {
+        "id": "CHR-154",
+        "name": "Character 154"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-154",
+        "name": "Location 154"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-154",
+        "name": "Artifact 154"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-154",
+        "name": "Fear Entity 154"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-153",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-154",
+        "description": "Primary event from episode 154"
+      }
+    ]
+  },
+  {
+    "id": "MAG-155",
+    "number": 155,
+    "season": 1,
+    "title": "Episode 155",
+    "summary": "A canonical episode summary for episode 155.",
+    "characters": [
+      {
+        "id": "CHR-155",
+        "name": "Character 155"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-155",
+        "name": "Location 155"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-155",
+        "name": "Artifact 155"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-155",
+        "name": "Fear Entity 155"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-154",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-155",
+        "description": "Primary event from episode 155"
+      }
+    ]
+  },
+  {
+    "id": "MAG-156",
+    "number": 156,
+    "season": 1,
+    "title": "Episode 156",
+    "summary": "A canonical episode summary for episode 156.",
+    "characters": [
+      {
+        "id": "CHR-156",
+        "name": "Character 156"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-156",
+        "name": "Location 156"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-156",
+        "name": "Artifact 156"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-156",
+        "name": "Fear Entity 156"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-155",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-156",
+        "description": "Primary event from episode 156"
+      }
+    ]
+  },
+  {
+    "id": "MAG-157",
+    "number": 157,
+    "season": 1,
+    "title": "Episode 157",
+    "summary": "A canonical episode summary for episode 157.",
+    "characters": [
+      {
+        "id": "CHR-157",
+        "name": "Character 157"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-157",
+        "name": "Location 157"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-157",
+        "name": "Artifact 157"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-157",
+        "name": "Fear Entity 157"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-156",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-157",
+        "description": "Primary event from episode 157"
+      }
+    ]
+  },
+  {
+    "id": "MAG-158",
+    "number": 158,
+    "season": 1,
+    "title": "Episode 158",
+    "summary": "A canonical episode summary for episode 158.",
+    "characters": [
+      {
+        "id": "CHR-158",
+        "name": "Character 158"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-158",
+        "name": "Location 158"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-158",
+        "name": "Artifact 158"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-158",
+        "name": "Fear Entity 158"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-157",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-158",
+        "description": "Primary event from episode 158"
+      }
+    ]
+  },
+  {
+    "id": "MAG-159",
+    "number": 159,
+    "season": 1,
+    "title": "Episode 159",
+    "summary": "A canonical episode summary for episode 159.",
+    "characters": [
+      {
+        "id": "CHR-159",
+        "name": "Character 159"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-159",
+        "name": "Location 159"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-159",
+        "name": "Artifact 159"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-159",
+        "name": "Fear Entity 159"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-158",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-159",
+        "description": "Primary event from episode 159"
+      }
+    ]
+  },
+  {
+    "id": "MAG-160",
+    "number": 160,
+    "season": 1,
+    "title": "Episode 160",
+    "summary": "A canonical episode summary for episode 160.",
+    "characters": [
+      {
+        "id": "CHR-160",
+        "name": "Character 160"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-160",
+        "name": "Location 160"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-160",
+        "name": "Artifact 160"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-160",
+        "name": "Fear Entity 160"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-159",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-160",
+        "description": "Primary event from episode 160"
+      }
+    ]
+  },
+  {
+    "id": "MAG-161",
+    "number": 161,
+    "season": 1,
+    "title": "Episode 161",
+    "summary": "A canonical episode summary for episode 161.",
+    "characters": [
+      {
+        "id": "CHR-161",
+        "name": "Character 161"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-161",
+        "name": "Location 161"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-161",
+        "name": "Artifact 161"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-161",
+        "name": "Fear Entity 161"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-160",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-161",
+        "description": "Primary event from episode 161"
+      }
+    ]
+  },
+  {
+    "id": "MAG-162",
+    "number": 162,
+    "season": 1,
+    "title": "Episode 162",
+    "summary": "A canonical episode summary for episode 162.",
+    "characters": [
+      {
+        "id": "CHR-162",
+        "name": "Character 162"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-162",
+        "name": "Location 162"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-162",
+        "name": "Artifact 162"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-162",
+        "name": "Fear Entity 162"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-161",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-162",
+        "description": "Primary event from episode 162"
+      }
+    ]
+  },
+  {
+    "id": "MAG-163",
+    "number": 163,
+    "season": 1,
+    "title": "Episode 163",
+    "summary": "A canonical episode summary for episode 163.",
+    "characters": [
+      {
+        "id": "CHR-163",
+        "name": "Character 163"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-163",
+        "name": "Location 163"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-163",
+        "name": "Artifact 163"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-163",
+        "name": "Fear Entity 163"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-162",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-163",
+        "description": "Primary event from episode 163"
+      }
+    ]
+  },
+  {
+    "id": "MAG-164",
+    "number": 164,
+    "season": 1,
+    "title": "Episode 164",
+    "summary": "A canonical episode summary for episode 164.",
+    "characters": [
+      {
+        "id": "CHR-164",
+        "name": "Character 164"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-164",
+        "name": "Location 164"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-164",
+        "name": "Artifact 164"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-164",
+        "name": "Fear Entity 164"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-163",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-164",
+        "description": "Primary event from episode 164"
+      }
+    ]
+  },
+  {
+    "id": "MAG-165",
+    "number": 165,
+    "season": 1,
+    "title": "Episode 165",
+    "summary": "A canonical episode summary for episode 165.",
+    "characters": [
+      {
+        "id": "CHR-165",
+        "name": "Character 165"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-165",
+        "name": "Location 165"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-165",
+        "name": "Artifact 165"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-165",
+        "name": "Fear Entity 165"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-164",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-165",
+        "description": "Primary event from episode 165"
+      }
+    ]
+  },
+  {
+    "id": "MAG-166",
+    "number": 166,
+    "season": 1,
+    "title": "Episode 166",
+    "summary": "A canonical episode summary for episode 166.",
+    "characters": [
+      {
+        "id": "CHR-166",
+        "name": "Character 166"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-166",
+        "name": "Location 166"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-166",
+        "name": "Artifact 166"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-166",
+        "name": "Fear Entity 166"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-165",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-166",
+        "description": "Primary event from episode 166"
+      }
+    ]
+  },
+  {
+    "id": "MAG-167",
+    "number": 167,
+    "season": 1,
+    "title": "Episode 167",
+    "summary": "A canonical episode summary for episode 167.",
+    "characters": [
+      {
+        "id": "CHR-167",
+        "name": "Character 167"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-167",
+        "name": "Location 167"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-167",
+        "name": "Artifact 167"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-167",
+        "name": "Fear Entity 167"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-166",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-167",
+        "description": "Primary event from episode 167"
+      }
+    ]
+  },
+  {
+    "id": "MAG-168",
+    "number": 168,
+    "season": 1,
+    "title": "Episode 168",
+    "summary": "A canonical episode summary for episode 168.",
+    "characters": [
+      {
+        "id": "CHR-168",
+        "name": "Character 168"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-168",
+        "name": "Location 168"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-168",
+        "name": "Artifact 168"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-168",
+        "name": "Fear Entity 168"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-167",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-168",
+        "description": "Primary event from episode 168"
+      }
+    ]
+  },
+  {
+    "id": "MAG-169",
+    "number": 169,
+    "season": 1,
+    "title": "Episode 169",
+    "summary": "A canonical episode summary for episode 169.",
+    "characters": [
+      {
+        "id": "CHR-169",
+        "name": "Character 169"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-169",
+        "name": "Location 169"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-169",
+        "name": "Artifact 169"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-169",
+        "name": "Fear Entity 169"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-168",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-169",
+        "description": "Primary event from episode 169"
+      }
+    ]
+  },
+  {
+    "id": "MAG-170",
+    "number": 170,
+    "season": 1,
+    "title": "Episode 170",
+    "summary": "A canonical episode summary for episode 170.",
+    "characters": [
+      {
+        "id": "CHR-170",
+        "name": "Character 170"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-170",
+        "name": "Location 170"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-170",
+        "name": "Artifact 170"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-170",
+        "name": "Fear Entity 170"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-169",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-170",
+        "description": "Primary event from episode 170"
+      }
+    ]
+  },
+  {
+    "id": "MAG-171",
+    "number": 171,
+    "season": 1,
+    "title": "Episode 171",
+    "summary": "A canonical episode summary for episode 171.",
+    "characters": [
+      {
+        "id": "CHR-171",
+        "name": "Character 171"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-171",
+        "name": "Location 171"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-171",
+        "name": "Artifact 171"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-171",
+        "name": "Fear Entity 171"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-170",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-171",
+        "description": "Primary event from episode 171"
+      }
+    ]
+  },
+  {
+    "id": "MAG-172",
+    "number": 172,
+    "season": 1,
+    "title": "Episode 172",
+    "summary": "A canonical episode summary for episode 172.",
+    "characters": [
+      {
+        "id": "CHR-172",
+        "name": "Character 172"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-172",
+        "name": "Location 172"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-172",
+        "name": "Artifact 172"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-172",
+        "name": "Fear Entity 172"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-171",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-172",
+        "description": "Primary event from episode 172"
+      }
+    ]
+  },
+  {
+    "id": "MAG-173",
+    "number": 173,
+    "season": 1,
+    "title": "Episode 173",
+    "summary": "A canonical episode summary for episode 173.",
+    "characters": [
+      {
+        "id": "CHR-173",
+        "name": "Character 173"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-173",
+        "name": "Location 173"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-173",
+        "name": "Artifact 173"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-173",
+        "name": "Fear Entity 173"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-172",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-173",
+        "description": "Primary event from episode 173"
+      }
+    ]
+  },
+  {
+    "id": "MAG-174",
+    "number": 174,
+    "season": 1,
+    "title": "Episode 174",
+    "summary": "A canonical episode summary for episode 174.",
+    "characters": [
+      {
+        "id": "CHR-174",
+        "name": "Character 174"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-174",
+        "name": "Location 174"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-174",
+        "name": "Artifact 174"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-174",
+        "name": "Fear Entity 174"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-173",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-174",
+        "description": "Primary event from episode 174"
+      }
+    ]
+  },
+  {
+    "id": "MAG-175",
+    "number": 175,
+    "season": 1,
+    "title": "Episode 175",
+    "summary": "A canonical episode summary for episode 175.",
+    "characters": [
+      {
+        "id": "CHR-175",
+        "name": "Character 175"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-175",
+        "name": "Location 175"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-175",
+        "name": "Artifact 175"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-175",
+        "name": "Fear Entity 175"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-174",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-175",
+        "description": "Primary event from episode 175"
+      }
+    ]
+  },
+  {
+    "id": "MAG-176",
+    "number": 176,
+    "season": 1,
+    "title": "Episode 176",
+    "summary": "A canonical episode summary for episode 176.",
+    "characters": [
+      {
+        "id": "CHR-176",
+        "name": "Character 176"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-176",
+        "name": "Location 176"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-176",
+        "name": "Artifact 176"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-176",
+        "name": "Fear Entity 176"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-175",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-176",
+        "description": "Primary event from episode 176"
+      }
+    ]
+  },
+  {
+    "id": "MAG-177",
+    "number": 177,
+    "season": 1,
+    "title": "Episode 177",
+    "summary": "A canonical episode summary for episode 177.",
+    "characters": [
+      {
+        "id": "CHR-177",
+        "name": "Character 177"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-177",
+        "name": "Location 177"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-177",
+        "name": "Artifact 177"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-177",
+        "name": "Fear Entity 177"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-176",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-177",
+        "description": "Primary event from episode 177"
+      }
+    ]
+  },
+  {
+    "id": "MAG-178",
+    "number": 178,
+    "season": 1,
+    "title": "Episode 178",
+    "summary": "A canonical episode summary for episode 178.",
+    "characters": [
+      {
+        "id": "CHR-178",
+        "name": "Character 178"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-178",
+        "name": "Location 178"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-178",
+        "name": "Artifact 178"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-178",
+        "name": "Fear Entity 178"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-177",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-178",
+        "description": "Primary event from episode 178"
+      }
+    ]
+  },
+  {
+    "id": "MAG-179",
+    "number": 179,
+    "season": 1,
+    "title": "Episode 179",
+    "summary": "A canonical episode summary for episode 179.",
+    "characters": [
+      {
+        "id": "CHR-179",
+        "name": "Character 179"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-179",
+        "name": "Location 179"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-179",
+        "name": "Artifact 179"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-179",
+        "name": "Fear Entity 179"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-178",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-179",
+        "description": "Primary event from episode 179"
+      }
+    ]
+  },
+  {
+    "id": "MAG-180",
+    "number": 180,
+    "season": 1,
+    "title": "Episode 180",
+    "summary": "A canonical episode summary for episode 180.",
+    "characters": [
+      {
+        "id": "CHR-180",
+        "name": "Character 180"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-180",
+        "name": "Location 180"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-180",
+        "name": "Artifact 180"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-180",
+        "name": "Fear Entity 180"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-179",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-180",
+        "description": "Primary event from episode 180"
+      }
+    ]
+  },
+  {
+    "id": "MAG-181",
+    "number": 181,
+    "season": 1,
+    "title": "Episode 181",
+    "summary": "A canonical episode summary for episode 181.",
+    "characters": [
+      {
+        "id": "CHR-181",
+        "name": "Character 181"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-181",
+        "name": "Location 181"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-181",
+        "name": "Artifact 181"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-181",
+        "name": "Fear Entity 181"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-180",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-181",
+        "description": "Primary event from episode 181"
+      }
+    ]
+  },
+  {
+    "id": "MAG-182",
+    "number": 182,
+    "season": 1,
+    "title": "Episode 182",
+    "summary": "A canonical episode summary for episode 182.",
+    "characters": [
+      {
+        "id": "CHR-182",
+        "name": "Character 182"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-182",
+        "name": "Location 182"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-182",
+        "name": "Artifact 182"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-182",
+        "name": "Fear Entity 182"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-181",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-182",
+        "description": "Primary event from episode 182"
+      }
+    ]
+  },
+  {
+    "id": "MAG-183",
+    "number": 183,
+    "season": 1,
+    "title": "Episode 183",
+    "summary": "A canonical episode summary for episode 183.",
+    "characters": [
+      {
+        "id": "CHR-183",
+        "name": "Character 183"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-183",
+        "name": "Location 183"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-183",
+        "name": "Artifact 183"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-183",
+        "name": "Fear Entity 183"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-182",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-183",
+        "description": "Primary event from episode 183"
+      }
+    ]
+  },
+  {
+    "id": "MAG-184",
+    "number": 184,
+    "season": 1,
+    "title": "Episode 184",
+    "summary": "A canonical episode summary for episode 184.",
+    "characters": [
+      {
+        "id": "CHR-184",
+        "name": "Character 184"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-184",
+        "name": "Location 184"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-184",
+        "name": "Artifact 184"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-184",
+        "name": "Fear Entity 184"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-183",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-184",
+        "description": "Primary event from episode 184"
+      }
+    ]
+  },
+  {
+    "id": "MAG-185",
+    "number": 185,
+    "season": 1,
+    "title": "Episode 185",
+    "summary": "A canonical episode summary for episode 185.",
+    "characters": [
+      {
+        "id": "CHR-185",
+        "name": "Character 185"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-185",
+        "name": "Location 185"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-185",
+        "name": "Artifact 185"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-185",
+        "name": "Fear Entity 185"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-184",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-185",
+        "description": "Primary event from episode 185"
+      }
+    ]
+  },
+  {
+    "id": "MAG-186",
+    "number": 186,
+    "season": 1,
+    "title": "Episode 186",
+    "summary": "A canonical episode summary for episode 186.",
+    "characters": [
+      {
+        "id": "CHR-186",
+        "name": "Character 186"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-186",
+        "name": "Location 186"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-186",
+        "name": "Artifact 186"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-186",
+        "name": "Fear Entity 186"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-185",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-186",
+        "description": "Primary event from episode 186"
+      }
+    ]
+  },
+  {
+    "id": "MAG-187",
+    "number": 187,
+    "season": 1,
+    "title": "Episode 187",
+    "summary": "A canonical episode summary for episode 187.",
+    "characters": [
+      {
+        "id": "CHR-187",
+        "name": "Character 187"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-187",
+        "name": "Location 187"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-187",
+        "name": "Artifact 187"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-187",
+        "name": "Fear Entity 187"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-186",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-187",
+        "description": "Primary event from episode 187"
+      }
+    ]
+  },
+  {
+    "id": "MAG-188",
+    "number": 188,
+    "season": 1,
+    "title": "Episode 188",
+    "summary": "A canonical episode summary for episode 188.",
+    "characters": [
+      {
+        "id": "CHR-188",
+        "name": "Character 188"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-188",
+        "name": "Location 188"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-188",
+        "name": "Artifact 188"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-188",
+        "name": "Fear Entity 188"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-187",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-188",
+        "description": "Primary event from episode 188"
+      }
+    ]
+  },
+  {
+    "id": "MAG-189",
+    "number": 189,
+    "season": 1,
+    "title": "Episode 189",
+    "summary": "A canonical episode summary for episode 189.",
+    "characters": [
+      {
+        "id": "CHR-189",
+        "name": "Character 189"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-189",
+        "name": "Location 189"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-189",
+        "name": "Artifact 189"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-189",
+        "name": "Fear Entity 189"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-188",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-189",
+        "description": "Primary event from episode 189"
+      }
+    ]
+  },
+  {
+    "id": "MAG-190",
+    "number": 190,
+    "season": 1,
+    "title": "Episode 190",
+    "summary": "A canonical episode summary for episode 190.",
+    "characters": [
+      {
+        "id": "CHR-190",
+        "name": "Character 190"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-190",
+        "name": "Location 190"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-190",
+        "name": "Artifact 190"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-190",
+        "name": "Fear Entity 190"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-189",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-190",
+        "description": "Primary event from episode 190"
+      }
+    ]
+  },
+  {
+    "id": "MAG-191",
+    "number": 191,
+    "season": 1,
+    "title": "Episode 191",
+    "summary": "A canonical episode summary for episode 191.",
+    "characters": [
+      {
+        "id": "CHR-191",
+        "name": "Character 191"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-191",
+        "name": "Location 191"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-191",
+        "name": "Artifact 191"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-191",
+        "name": "Fear Entity 191"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-190",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-191",
+        "description": "Primary event from episode 191"
+      }
+    ]
+  },
+  {
+    "id": "MAG-192",
+    "number": 192,
+    "season": 1,
+    "title": "Episode 192",
+    "summary": "A canonical episode summary for episode 192.",
+    "characters": [
+      {
+        "id": "CHR-192",
+        "name": "Character 192"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-192",
+        "name": "Location 192"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-192",
+        "name": "Artifact 192"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-192",
+        "name": "Fear Entity 192"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-191",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-192",
+        "description": "Primary event from episode 192"
+      }
+    ]
+  },
+  {
+    "id": "MAG-193",
+    "number": 193,
+    "season": 1,
+    "title": "Episode 193",
+    "summary": "A canonical episode summary for episode 193.",
+    "characters": [
+      {
+        "id": "CHR-193",
+        "name": "Character 193"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-193",
+        "name": "Location 193"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-193",
+        "name": "Artifact 193"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-193",
+        "name": "Fear Entity 193"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-192",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-193",
+        "description": "Primary event from episode 193"
+      }
+    ]
+  },
+  {
+    "id": "MAG-194",
+    "number": 194,
+    "season": 1,
+    "title": "Episode 194",
+    "summary": "A canonical episode summary for episode 194.",
+    "characters": [
+      {
+        "id": "CHR-194",
+        "name": "Character 194"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-194",
+        "name": "Location 194"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-194",
+        "name": "Artifact 194"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-194",
+        "name": "Fear Entity 194"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-193",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-194",
+        "description": "Primary event from episode 194"
+      }
+    ]
+  },
+  {
+    "id": "MAG-195",
+    "number": 195,
+    "season": 1,
+    "title": "Episode 195",
+    "summary": "A canonical episode summary for episode 195.",
+    "characters": [
+      {
+        "id": "CHR-195",
+        "name": "Character 195"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-195",
+        "name": "Location 195"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-195",
+        "name": "Artifact 195"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-195",
+        "name": "Fear Entity 195"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-194",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-195",
+        "description": "Primary event from episode 195"
+      }
+    ]
+  },
+  {
+    "id": "MAG-196",
+    "number": 196,
+    "season": 1,
+    "title": "Episode 196",
+    "summary": "A canonical episode summary for episode 196.",
+    "characters": [
+      {
+        "id": "CHR-196",
+        "name": "Character 196"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-196",
+        "name": "Location 196"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-196",
+        "name": "Artifact 196"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-196",
+        "name": "Fear Entity 196"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-195",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-196",
+        "description": "Primary event from episode 196"
+      }
+    ]
+  },
+  {
+    "id": "MAG-197",
+    "number": 197,
+    "season": 1,
+    "title": "Episode 197",
+    "summary": "A canonical episode summary for episode 197.",
+    "characters": [
+      {
+        "id": "CHR-197",
+        "name": "Character 197"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-197",
+        "name": "Location 197"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-197",
+        "name": "Artifact 197"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-197",
+        "name": "Fear Entity 197"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-196",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-197",
+        "description": "Primary event from episode 197"
+      }
+    ]
+  },
+  {
+    "id": "MAG-198",
+    "number": 198,
+    "season": 1,
+    "title": "Episode 198",
+    "summary": "A canonical episode summary for episode 198.",
+    "characters": [
+      {
+        "id": "CHR-198",
+        "name": "Character 198"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-198",
+        "name": "Location 198"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-198",
+        "name": "Artifact 198"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-198",
+        "name": "Fear Entity 198"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-197",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-198",
+        "description": "Primary event from episode 198"
+      }
+    ]
+  },
+  {
+    "id": "MAG-199",
+    "number": 199,
+    "season": 1,
+    "title": "Episode 199",
+    "summary": "A canonical episode summary for episode 199.",
+    "characters": [
+      {
+        "id": "CHR-199",
+        "name": "Character 199"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-199",
+        "name": "Location 199"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-199",
+        "name": "Artifact 199"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-199",
+        "name": "Fear Entity 199"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-198",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-199",
+        "description": "Primary event from episode 199"
+      }
+    ]
+  },
+  {
+    "id": "MAG-200",
+    "number": 200,
+    "season": 1,
+    "title": "Episode 200",
+    "summary": "A canonical episode summary for episode 200.",
+    "characters": [
+      {
+        "id": "CHR-200",
+        "name": "Character 200"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-200",
+        "name": "Location 200"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-200",
+        "name": "Artifact 200"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-200",
+        "name": "Fear Entity 200"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-199",
+        "note": "References the previous episode."
+      }
+    ],
+    "themes": [
+      "Documentation",
+      "Memory"
+    ],
+    "timeline": [
+      {
+        "eventId": "EVT-200",
+        "description": "Primary event from episode 200"
+      }
+    ]
+  }
+];

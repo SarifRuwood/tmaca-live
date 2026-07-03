@@ -15,7 +15,13 @@
 <h3>Controls</h3>
 <button onclick="TMACA.generate()">Generate</button>
 <button onclick="TMACA.cycle()">Validate + Repair</button>
+<button onclick="TMACA.repairAllInvalidRecords()">Repair All Invalid</button>
 <button onclick="TMACA.reset()">Reset</button>
+<button onclick="TMACA.loadStaticDataset()">Load Static Dataset</button>
+<button onclick="TMACA.resetToStaticDataset()">Reset To Static Dataset</button>
+<button onclick="TMACA.exportCurrentDataset()">Export Current Dataset</button>
+<button onclick="TMACA.promptImportDataset()">Import Dataset</button>
+<input id="datasetImportInput" type="file" accept=".json" style="display:none" onchange="TMACA.importDataset(event)">
 </div>
 
 <div class="panel">
@@ -34,6 +40,30 @@
 </div>
 
 <div class="panel">
+<h3>Inspect Record</h3>
+<label>Record #: <input id="recordIndex" type="number" min="1" value="1" style="width: 4rem"></label>
+<button onclick="TMACA.selectRecord()">Load</button>
+<button onclick="TMACA.repairSelectedRecord()">Repair Selected</button>
+</div>
+
+<div class="panel">
+<h3>Browser</h3>
+<label>Show: <select id="recordFilter" onchange="TMACA.setRecordFilter()">
+  <option value="all">All</option>
+  <option value="valid">Valid</option>
+  <option value="invalid">Invalid</option>
+  <option value="repaired">Repaired</option>
+  <option value="repair_failed">Repair Failed</option>
+</select></label>
+<button onclick="TMACA.refreshRecords()">Refresh</button>
+</div>
+
+<div class="panel full">
+<h3>Record Browser</h3>
+<pre id="recordBrowser"></pre>
+</div>
+
+<div class="panel">
 <h3>Diagnostics</h3>
 <pre id="diagnostics"></pre>
 </div>
@@ -41,6 +71,17 @@
 <div class="panel">
 <h3>Drift</h3>
 <pre id="drift"></pre>
+</div>
+
+<div class="panel full">
+<h3>Selected Record</h3>
+<pre id="record"></pre>
+</div>
+
+<div class="panel full">
+<h3>Selected Record Editor</h3>
+<textarea id="recordEditor" rows="12" style="width: 100%; font-family: monospace;"></textarea>
+<button onclick="TMACA.saveRecordEdit()">Save Edited Record</button>
 </div>
 
 <div class="panel full">
