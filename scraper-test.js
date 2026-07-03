@@ -7,6 +7,7 @@ const { Schema, Validator } = vm();
 if (typeof global !== 'undefined') {
   global.Schema = Schema;
 }
+const sourceConfig = require('./source-config.js');
 const scraper = require('./scraper.js');
 
 function loadSample(filename) {
@@ -15,22 +16,24 @@ function loadSample(filename) {
 
 async function test() {
   const episode = Schema.defaultEpisode(1);
+  scraper.setSourceCatalog(sourceConfig);
   const official = {
-    source: scraper.SOURCE_CATALOG.find(s => s.id === 'official-show-db'),
+    source: sourceConfig.find(s => s.id === 'official-show-db'),
     url: 'http://localhost/official-show-db/001',
     payload: loadSample('official-show-db-001.html')
   };
   const wiki = {
-    source: scraper.SOURCE_CATALOG.find(s => s.id === 'community-wiki'),
+    source: sourceConfig.find(s => s.id === 'community-wiki'),
     url: 'http://localhost/community-wiki/001',
     payload: loadSample('community-wiki-001.html')
   };
   const forum = {
-    source: scraper.SOURCE_CATALOG.find(s => s.id === 'forum-search'),
+    source: sourceConfig.find(s => s.id === 'forum-search'),
     url: 'http://localhost/forum-search/001',
     payload: loadSample('forum-search-001.html')
   };
 
+  scraper.setSchema(Schema);
   const parsedOfficial = scraper.parseEpisodeFromSource(official);
   const parsedWiki = scraper.parseEpisodeFromSource(wiki);
   const parsedForum = scraper.parseEpisodeFromSource(forum);

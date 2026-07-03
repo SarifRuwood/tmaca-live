@@ -6,6 +6,8 @@
   source fetchers and parsers.
 */
 
+const { JSDOM } = require('jsdom');
+
 const Scraper = (() => {
   let SchemaRef = null;
   let SOURCE_CATALOG = [
@@ -15,7 +17,18 @@ const Scraper = (() => {
       type: 'official',
       urlTemplate: 'https://show.example/episodes/{id}',
       format: 'html',
-      trust: 0.95
+      trust: 0.95,
+      selectors: {
+        number: { selector: '.episode-number' },
+        season: { selector: '.episode-season' },
+        title: { selector: '.episode-title' },
+        summary: { selector: '.episode-summary' },
+        characters: { selector: '.characters li[data-id]' },
+        locations: { selector: '.locations li[data-id]' },
+        artifacts: { selector: '.artifacts li[data-id]' },
+        fearEntities: { selector: '.fear-entities li[data-id]' },
+        references: { selector: '.references li[data-target]' }
+      }
     },
     {
       id: 'community-wiki',
@@ -23,7 +36,19 @@ const Scraper = (() => {
       type: 'secondary',
       urlTemplate: 'https://wiki.example/episode/{number}',
       format: 'html',
-      trust: 0.85
+      trust: 0.85,
+      selectors: {
+        id: { selector: '.wiki-episode', attr: 'data-episode-id' },
+        number: { selector: '.wiki-episode', attr: 'data-episode-number' },
+        season: { selector: '.wiki-episode', attr: 'data-episode-season' },
+        title: { selector: '.wiki-title' },
+        summary: { selector: '.wiki-summary' },
+        characters: { selector: '.wiki-characters li[data-id]' },
+        locations: { selector: '.wiki-locations li[data-id]' },
+        artifacts: { selector: '.wiki-artifacts li[data-id]' },
+        fearEntities: { selector: '.wiki-fear-entities li[data-id]' },
+        references: { selector: '.wiki-references li[data-target]' }
+      }
     },
     {
       id: 'forum-search',
@@ -31,20 +56,43 @@ const Scraper = (() => {
       type: 'forum',
       urlTemplate: 'https://forum.example/search?query=episode+{number}',
       format: 'html',
-      trust: 0.7
+      trust: 0.7,
+      selectors: {
+        threads: { selector: '.thread' },
+        threadLink: { selector: 'a[href]' },
+        threadForum: { selector: '.forum' },
+        threadPostedAt: { selector: '.posted' },
+        threadPopularity: { selector: '.popularity' },
+        threadTags: { selector: '.tag' }
+      }
     }
   ];
 
   async function fetchJson(url){
-    const response = await fetch(url);
-    if (!response.ok) throw new Error(`Failed to fetch ${url}: ${response.status}`);
+    const response = await fetchWithRetry(url, { headers: { 'Accept': 'application/json' } });
     return await response.json();
   }
 
   async function fetchText(url){
-    const response = await fetch(url);
-    if (!response.ok) throw new Error(`Failed to fetch ${url}: ${response.status}`);
+    const response = await fetchWithRetry(url, { headers: { 'Accept': 'text/html' } });
     return await response.text();
+  }
+
+  async function fetchWithRetry(url, options = {}, attempts = 3, delayMs = 500) {
+    let lastError = null;
+    for (let attempt = 1; attempt <= attempts; attempt++) {
+      try {
+        const response = await fetch(url, options);
+        if (!response.ok) throw new Error(`Failed to fetch ${url}: ${response.status}`);
+        return response;
+      } catch (error) {
+        lastError = error;
+        if (attempt < attempts) {
+          await new Promise(resolve => setTimeout(resolve, delayMs));
+        }
+      }
+    }
+    throw lastError;
   }
 
   function buildSourceUrl(source, episode){
@@ -69,45 +117,107 @@ const Scraper = (() => {
     };
   }
 
-  function extractSingle(html, regex){
-    const match = regex.exec(html);
-    return match ? match[1].trim() : null;
+  function parseHtml(html){
+    return new JSDOM(String(html)).window.document;
   }
 
-  function extractAll(html, regex){
-    const results = [];
-    let match;
-    while ((match = regex.exec(html)) !== null) {
-      results.push(match.slice(1).map(s => s.trim()));
+  function queryText(root, selector){
+    if (!selector) return null;
+    const node = root.querySelector(selector);
+    return node ? node.textContent.trim() : null;
+  }
+
+  function queryAttr(root, selector, attr){
+    if (!selector || !attr) return null;
+    const node = root.querySelector(selector);
+    return node ? node.getAttribute(attr)?.trim() : null;
+  }
+
+  function parseEntities(root, selector, idAttr = 'data-id'){
+    if (!selector) return [];
+    const items = Array.from(root.querySelectorAll(selector));
+    return items.map(item => ({
+      id: item.getAttribute(idAttr) ? item.getAttribute(idAttr).trim() : null,
+      name: item.textContent.trim()
+    })).filter(entity => entity.id && entity.name);
+  }
+
+  function parseReferences(root, selector){
+    if (!selector) return [];
+    const items = Array.from(root.querySelectorAll(selector));
+    return items.map(item => ({
+      type: 'episode',
+      target: item.getAttribute('data-target')?.trim() || null,
+      note: item.textContent.trim()
+    })).filter(reference => reference.target);
+  }
+
+  function extractJsonValue(payload, path){
+    if (!payload || !path) return null;
+    return path.split('.').reduce((value, key) => (value && typeof value === 'object' ? value[key] : undefined), payload) ?? null;
+  }
+
+  function extractJsonList(payload, path){
+    const value = extractJsonValue(payload, path);
+    return Array.isArray(value) ? value : [];
+  }
+
+  function parseEntitiesFromJson(payload, selectorMeta){
+    if (!selectorMeta || !selectorMeta.path) return [];
+    const items = extractJsonList(payload, selectorMeta.path);
+    const idPath = selectorMeta.idPath || 'id';
+    const namePath = selectorMeta.namePath || 'name';
+    return items.map(item => ({
+      id: extractJsonValue(item, idPath),
+      name: extractJsonValue(item, namePath)
+    })).filter(entity => entity.id && entity.name);
+  }
+
+  function getSelectorValue(selectorMeta){
+    if (!selectorMeta) return null;
+    return typeof selectorMeta === 'string' ? selectorMeta : selectorMeta.selector || null;
+  }
+
+  function parseForumThreads(root, selectors){
+    const threadSelector = getSelectorValue(selectors?.threads) || '.thread';
+    const anchorSelector = getSelectorValue(selectors?.threadLink) || 'a[href]';
+    const forumSelector = getSelectorValue(selectors?.threadForum) || '.forum';
+    const postedSelector = getSelectorValue(selectors?.threadPostedAt) || '.posted';
+    const popularitySelector = getSelectorValue(selectors?.threadPopularity) || '.popularity';
+    const tagSelector = getSelectorValue(selectors?.threadTags) || '.tag';
+
+    return Array.from(root.querySelectorAll(threadSelector)).map(thread => {
+      const anchor = thread.querySelector(anchorSelector);
+      return {
+        title: anchor ? anchor.textContent.trim() : 'Untitled Thread',
+        url: anchor ? anchor.href : '',
+        forum: queryText(thread, forumSelector) || 'Unknown',
+        postedAt: queryText(thread, postedSelector) || null,
+        popularity: parseInt(queryText(thread, popularitySelector), 10) || null,
+        tags: Array.from(thread.querySelectorAll(tagSelector)).map(node => node.textContent.trim()).filter(Boolean)
+      };
+    }).filter(thread => thread.url);
+  }
+
+  function extractField(root, selectorMeta){
+    if (!selectorMeta) return null;
+    if (selectorMeta.json && selectorMeta.path) {
+      return extractJsonValue(root, selectorMeta.path);
     }
-    return results;
-  }
-
-  function extractSection(html, className){
-    const regex = new RegExp(`<section[^>]*class=["']${className}["'][^>]*>([\\s\\S]*?)<\\/section>`, 'i');
-    return extractSingle(html, regex);
-  }
-
-  function parseListItems(sectionHtml, attributeName){
-    if (!sectionHtml) return [];
-    const itemRegex = new RegExp(`<li[^>]*${attributeName}=["']([^"']+)["'][^>]*>([^<]+)<\\/li>`, 'gi');
-    const items = [];
-    let match;
-    while ((match = itemRegex.exec(sectionHtml)) !== null) {
-      items.push({ id: match[1].trim(), name: match[2].trim() });
+    if (!selectorMeta.selector) return null;
+    if (selectorMeta.attr) {
+      return queryAttr(root, selectorMeta.selector, selectorMeta.attr);
     }
-    return items;
+    return queryText(root, selectorMeta.selector);
   }
 
-  function parseReferenceItems(sectionHtml){
-    if (!sectionHtml) return [];
-    const itemRegex = /<li[^>]*data-target=["']([^"']+)["'][^>]*>([^<]+)<\/li>/gi;
-    const items = [];
-    let match;
-    while ((match = itemRegex.exec(sectionHtml)) !== null) {
-      items.push({ type: 'episode', target: match[1].trim(), note: match[2].trim() });
+  function extractList(root, selectorMeta){
+    if (!selectorMeta) return [];
+    if (selectorMeta.json && selectorMeta.path) {
+      return parseEntitiesFromJson(root, selectorMeta);
     }
-    return items;
+    if (!selectorMeta.selector) return [];
+    return parseEntities(root, selectorMeta.selector, selectorMeta.idAttr || 'data-id');
   }
 
   function normalizeArray(items){
@@ -117,7 +227,7 @@ const Scraper = (() => {
   function uniqBy(items, key){
     const seen = new Set();
     return (items || []).filter(item => {
-      const value = item && item[key];
+      const value = item && (typeof key === 'function' ? key(item) : item[key]);
       if (!value || seen.has(value)) return false;
       seen.add(value);
       return true;
@@ -134,68 +244,30 @@ const Scraper = (() => {
       threadLinks: []
     };
 
-    switch (source.id) {
-      case 'official-show-db': {
-        const html = String(payload);
-        const number = parseInt(extractSingle(html, /class=["']episode-number["']>([^<]+)/i), 10) || null;
-        const season = parseInt(extractSingle(html, /class=["']episode-season["']>([^<]+)/i), 10) || null;
+    if (source.format === 'html') {
+      const root = parseHtml(payload);
+      const selectors = source.selectors || {};
+
+      if (source.type === 'forum') {
+        parsed.threadLinks = parseForumThreads(root, selectors);
+      } else {
+        const number = parseInt(extractField(root, selectors.number), 10) || null;
+        const season = parseInt(extractField(root, selectors.season), 10) || null;
         parsed.fields = {
-          id: number ? `${SchemaRef.ID_PREFIX}${String(number).padStart(3, '0')}` : null,
+          id: extractField(root, selectors.id) || (number ? `${SchemaRef.ID_PREFIX}${String(number).padStart(3, '0')}` : null),
           number,
           season,
-          title: extractSingle(html, /class=["']episode-title["']>([^<]+)/i),
-          summary: extractSingle(html, /class=["']episode-summary["']>([^<]+)/i),
-          characters: parseListItems(extractSection(html, 'characters'), 'data-id'),
-          locations: parseListItems(extractSection(html, 'locations'), 'data-id'),
-          artifacts: parseListItems(extractSection(html, 'artifacts'), 'data-id'),
-          fearEntities: parseListItems(extractSection(html, 'fear-entities'), 'data-id'),
-          references: parseReferenceItems(extractSection(html, 'references')),
+          title: extractField(root, selectors.title),
+          summary: extractField(root, selectors.summary),
+          characters: extractList(root, selectors.characters),
+          locations: extractList(root, selectors.locations),
+          artifacts: extractList(root, selectors.artifacts),
+          fearEntities: extractList(root, selectors.fearEntities),
+          references: parseReferences(root, selectors.references?.selector || selectors.references?.selector),
           themes: [],
           timeline: []
         };
-        break;
       }
-      case 'community-wiki': {
-        const html = String(payload);
-        parsed.fields = {
-          id: extractSingle(html, /data-episode-id=["']([^"']+)/i),
-          number: parseInt(extractSingle(html, /data-episode-number=["']([^"']+)/i), 10) || null,
-          season: parseInt(extractSingle(html, /data-episode-season=["']([^"']+)/i), 10) || null,
-          title: extractSingle(html, /class=["']wiki-title["']>([^<]+)/i),
-          summary: extractSingle(html, /class=["']wiki-summary["']>([^<]+)/i),
-          characters: parseListItems(extractSection(html, 'wiki-characters'), 'data-id'),
-          locations: parseListItems(extractSection(html, 'wiki-locations'), 'data-id'),
-          artifacts: parseListItems(extractSection(html, 'wiki-artifacts'), 'data-id'),
-          fearEntities: parseListItems(extractSection(html, 'wiki-fear-entities'), 'data-id'),
-          references: parseReferenceItems(extractSection(html, 'wiki-references')),
-          themes: [],
-          timeline: []
-        };
-        break;
-      }
-      case 'forum-search': {
-        const html = String(payload);
-        const threadBlocks = extractAll(html, /<div[^>]*class=["']thread["'][^>]*>([\s\S]*?)<\/div>/gi).map(([block]) => block);
-        parsed.threadLinks = threadBlocks.map(block => {
-          const linkMatch = /<a[^>]*href=["']([^"']+)["'][^>]*>([^<]+)<\/a>/i.exec(block);
-          const url = linkMatch ? linkMatch[1].trim() : '';
-          const title = linkMatch ? linkMatch[2].trim() : null;
-          const forum = extractSingle(block, /class=["']forum["']>([^<]+)<\/span>/i);
-          const postedAt = extractSingle(block, /class=["']posted["']>([^<]+)<\/span>/i);
-          const popularity = parseInt(extractSingle(block, /class=["']popularity["']>([^<]+)<\/span>/i), 10) || null;
-          return {
-            title: title || 'Untitled Thread',
-            url: url || '',
-            forum: forum || 'Unknown',
-            postedAt: postedAt || null,
-            popularity,
-            tags: []
-          };
-        }).filter(thread => thread.url);
-        break;
-      }
-      default:
-        break;
     }
 
     return parsed;

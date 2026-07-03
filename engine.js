@@ -611,7 +611,18 @@ return {
   cycle,
   reset,
   selectRecord,
-  repairSelectedRecord
+  repairSelectedRecord,
+  repairAllInvalidRecords,
+  loadScrapedDataset,
+  resetToScrapedDataset,
+  loadStaticDataset,
+  resetToStaticDataset,
+  exportCurrentDataset,
+  promptImportDataset,
+  importDataset,
+  saveRecordEdit,
+  setRecordFilter,
+  refreshRecords
 };
 
 })();

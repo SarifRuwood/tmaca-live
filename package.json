@@ -7,5 +7,8 @@
     "build-scraped": "node build-scraped-dataset.js",
     "test-scraper": "node scraper-test.js",
     "start": "python3 -m http.server 8000"
+  },
+  "dependencies": {
+    "jsdom": "^22.1.0"
   }
 }
