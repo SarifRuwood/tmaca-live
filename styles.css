@@ -1,0 +1,82 @@
+body {
+  font-family: monospace;
+  background: #0b0f14;
+  color: #d7e1ee;
+  margin: 0;
+  padding: 12px;
+}
+
+/* -------------------------
+   GRID LAYOUT
+--------------------------*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+/* -------------------------
+   PANEL STYLING
+--------------------------*/
+.panel {
+  border: 1px solid #223;
+  border-radius: 8px;
+  padding: 10px;
+  background: #0f1620;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+/* -------------------------
+   BUTTONS
+--------------------------*/
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background: #182230;
+  color: #d7e1ee;
+  border: 1px solid #2a3a52;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #223044;
+}
+
+/* -------------------------
+   STATUS COLORS
+--------------------------*/
+.good {
+  color: #6dff8b;
+  font-weight: bold;
+}
+
+.bad {
+  color: #ff5c7a;
+  font-weight: bold;
+}
+
+/* -------------------------
+   TEXT OUTPUT
+--------------------------*/
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* -------------------------
+   MOBILE OPTIMIZATION
+--------------------------*/
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .full {
+    grid-column: 1 / -1;
+  }
+}
