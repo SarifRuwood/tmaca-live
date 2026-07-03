@@ -37,6 +37,19 @@ function migrateOldEpisodes(){
   }
 }
 
+async function loadScrapedEpisodeData(){
+  try {
+    const response = await fetch('episodes-scraped.json');
+    if (!response.ok) throw new Error('Failed to fetch episodes-scraped.json: ' + response.status);
+    const episodes = await response.json();
+    if (!Array.isArray(episodes)) throw new Error('Invalid scraped dataset format');
+    return episodes;
+  } catch (error) {
+    console.warn('TMACA: loadScrapedEpisodeData error', error);
+    return null;
+  }
+}
+
 async function loadStaticEpisodeData(){
   try {
     const response = await fetch('episodes.json');
@@ -60,6 +73,26 @@ function initializeDatabase(){
 
 async function loadInitialDataset(){
   initializeDatabase();
+  const scrapedEpisodeData = await loadScrapedEpisodeData();
+  if (Array.isArray(scrapedEpisodeData) && scrapedEpisodeData.length > 0) {
+    state.episodeRecords = scrapedEpisodeData.map(makeEpisodeRecordFromEpisode);
+    state.total = state.episodeRecords.length;
+    state.failures = state.episodeRecords.filter(record => !record.validation.ok).length;
+    state.currentRecordIndex = state.episodeRecords.length - 1;
+    state.current = state.episodeRecords[state.currentRecordIndex].episode;
+    state.datasetSource = 'scraped-json';
+
+    log({
+      type: 'INIT',
+      episode: state.current,
+      validation: Validator.validate(state.current),
+      generatedCount: state.total,
+      source: 'scraped-json'
+    });
+    render();
+    return;
+  }
+
   const staticEpisodeData = await loadStaticEpisodeData();
 
   if (Array.isArray(staticEpisodeData) && staticEpisodeData.length > 0) {
@@ -214,6 +247,29 @@ function resetToStaticDataset(){
       render();
     } else {
       alert('Unable to load static dataset for reset');
+    }
+  });
+}
+
+function loadScrapedDataset(){
+  loadScrapedEpisodeData().then(episodes => {
+    if (Array.isArray(episodes)) {
+      setDatasetFromEpisodes(episodes, 'scraped-json');
+      render();
+    } else {
+      alert('Unable to load scraped dataset');
+    }
+  });
+}
+
+function resetToScrapedDataset(){
+  loadScrapedEpisodeData().then(episodes => {
+    if (Array.isArray(episodes)) {
+      state = Store.reset();
+      setDatasetFromEpisodes(episodes, 'scraped-json-reset');
+      render();
+    } else {
+      alert('Unable to load scraped dataset for reset');
     }
   });
 }

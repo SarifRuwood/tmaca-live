@@ -1,0 +1,7073 @@
+[
+  {
+    "id": "MAG-001",
+    "number": 1,
+    "season": 1,
+    "title": "Pilot Episode",
+    "summary": "A canonical episode summary for episode 1.",
+    "characters": [
+      {
+        "id": "CHR-001",
+        "name": "Character 1"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-001",
+        "name": "Location 1"
+      }
+    ],
+    "artifacts": [
+      {
+        "id": "ART-001",
+        "name": "Artifact 1"
+      }
+    ],
+    "fearEntities": [
+      {
+        "id": "FEAR-001",
+        "name": "Fear Entity 1"
+      }
+    ],
+    "references": [
+      {
+        "type": "episode",
+        "target": "MAG-001",
+        "note": "Self-reference for the first episode."
+      }
+    ],
+    "themes": [],
+    "timeline": [],
+    "sources": [
+      {
+        "sourceId": "official-show-db",
+        "name": "Official Show Database",
+        "url": "https://show.example/episodes/MAG-001",
+        "type": "official",
+        "confidence": 0.95,
+        "retrievedAt": "2026-07-03T06:45:54.201Z"
+      },
+      {
+        "sourceId": "community-wiki",
+        "name": "Community Wiki",
+        "url": "https://wiki.example/episode/001",
+        "type": "secondary",
+        "confidence": 0.85,
+        "retrievedAt": "2026-07-03T06:45:54.201Z"
+      },
+      {
+        "sourceId": "forum-search",
+        "name": "Forum Thread Search",
+        "url": "https://forum.example/search?query=episode+001",
+        "type": "forum",
+        "confidence": 0.7,
+        "retrievedAt": "2026-07-03T06:45:54.201Z"
+      }
+    ],
+    "forumThreads": [
+      {
+        "title": "Episode 001 Discussion",
+        "url": "https://forum.example/thread/1001",
+        "forum": "ExampleForum",
+        "postedAt": "2026-07-03T12:00:00Z",
+        "popularity": 312,
+        "tags": []
+      },
+      {
+        "title": "First Impressions of Episode 001",
+        "url": "https://forum.example/thread/1002",
+        "forum": "ExampleForum",
+        "postedAt": "2026-07-03T12:30:00Z",
+        "popularity": 198,
+        "tags": []
+      }
+    ],
+    "scrapeMetadata": {
+      "sourceCount": 3,
+      "sourceInfo": [
+        {
+          "source": "official-show-db",
+          "type": "fixture"
+        },
+        {
+          "source": "community-wiki",
+          "type": "fixture"
+        },
+        {
+          "source": "forum-search",
+          "type": "fixture"
+        }
+      ],
+      "sourceErrors": [],
+      "validation": {
+        "ok": true,
+        "failures": []
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": null,
+    "number": null,
+    "season": null,
+    "title": null,
+    "summary": null,
+    "characters": [],
+    "locations": [],
+    "artifacts": [],
+    "fearEntities": [],
+    "references": [],
+    "themes": [],
+    "timeline": [],
+    "sources": [],
+    "forumThreads": [],
+    "scrapeMetadata": {
+      "sourceCount": 0,
+      "sourceInfo": [],
+      "sourceErrors": [
+        "Skipped placeholder source",
+        "Skipped placeholder source",
+        "Skipped placeholder source"
+      ],
+      "validation": {
+        "ok": false,
+        "failures": [
+          {
+            "rule": "SCRAPER_VALIDATION_ERROR",
+            "path": "episode",
+            "category": "integrity"
+          }
+        ]
+      }
+    }
+  }
+]
