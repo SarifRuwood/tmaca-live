@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TMACA Live</title>
+<style>
+body { font-family: monospace; background:#0b0f14; color:#d7e1ee; padding:12px; }
+.box { border:1px solid #223; padding:10px; margin:10px 0; border-radius:8px; }
+button { padding:10px; width:100%; margin:5px 0; }
+.good { color:#6dff8b; }
+.bad { color:#ff5c7a; }
+</style>
+</head>
+<body>
+
+<h2>🧬 TMACA Live System</h2>
+
+<div class="box">
+<button onclick="generate()">Generate Episode</button>
+<button onclick="cycle()">Run Validate + Repair Cycle</button>
+<button onclick="reset()">Reset</button>
+</div>
+
+<div class="box">
+<h3>Episode</h3>
+<pre id="ep"></pre>
+</div>
+
+<div class="box">
+<h3>Validation</h3>
+<pre id="val"></pre>
+</div>
+
+<div class="box">
+<h3>Drift</h3>
+<pre id="drift"></pre>
+</div>
+
+<script>
+
+let state = { total:0, fail:0, last:null };
+
+function makeEpisode(){
+  let n = state.total + 1;
+  return {
+    id: Math.random()<0.3 ? "MAG-" + (n+1).toString().padStart(3,'0') : "MAG-" + n.toString().padStart(3,'0'),
+    number: n,
+    season: 1,
+    title: Math.random()<0.25 ? "" : "Episode " + n
+  };
+}
+
+function validate(ep){
+  if(ep.id !== "MAG-" + ep.number.toString().padStart(3,'0')){
+    return {ok:false, error:"ID_NUMBER_MISMATCH"};
+  }
+  if(!ep.title || ep.title.trim()===""){
+    return {ok:false, error:"EMPTY_TITLE"};
+  }
+  return {ok:true};
+}
+
+function repair(ep, err){
+  if(err==="ID_NUMBER_MISMATCH"){
+    ep.id = "MAG-" + ep.number.toString().padStart(3,'0');
+  }
+  if(err==="EMPTY_TITLE"){
+    ep.title = "Recovered Episode " + ep.number;
+  }
+  return ep;
+}
+
+function updateUI(ep, val){
+  document.getElementById("ep").innerText = JSON.stringify(ep,null,2);
+  document.getElementById("val").innerHTML =
+    val.ok ? "<span class='good'>ACCEPTED</span>"
+           : "<span class='bad'>REJECTED: " + val.error + "</span>";
+
+  document.getElementById("drift").innerText =
+    "Total: " + state.total +
+    "\nFailures: " + state.fail +
+    "\nDrift: " + (state.fail/state.total || 0).toFixed(2);
+}
+
+function generate(){
+  let ep = makeEpisode();
+  state.total++;
+  let val = validate(ep);
+  if(!val.ok) state.fail++;
+  state.last = ep;
+  updateUI(ep,val);
+}
+
+function cycle(){
+  let ep = makeEpisode();
+  state.total++;
+
+  let val = validate(ep);
+  if(!val.ok){
+    state.fail++;
+    ep = repair(ep,val.error);
+    val = validate(ep);
+  }
+
+  state.last = ep;
+  updateUI(ep,val);
+}
+
+function reset(){
+  state = { total:0, fail:0, last:null };
+  document.getElementById("ep").innerText="";
+  document.getElementById("val").innerText="";
+  document.getElementById("drift").innerText="";
+}
+
+</script>
+
+</body>
+</html>
